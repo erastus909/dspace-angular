@@ -4,7 +4,7 @@
 FROM node:14-alpine
 WORKDIR /app
 ADD . /app/
-EXPOSE 4000
+EXPOSE 80
 
 # We run yarn install with an increased network timeout (5min) to avoid "ESOCKETTIMEDOUT" errors from hub.docker.com
 # See, for example https://github.com/yarnpkg/yarn/issues/5540
