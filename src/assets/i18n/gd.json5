@@ -151,6 +151,8 @@
 
   // "admin.registries.bitstream-formats.table.name": "Name",
   "admin.registries.bitstream-formats.table.name": "Ainm",
+  // TODO New key - Add a translation
+  "admin.registries.bitstream-formats.table.id": "ID",
 
   // "admin.registries.bitstream-formats.table.return": "Back",
   "admin.registries.bitstream-formats.table.return": "Air ais",
@@ -169,6 +171,8 @@
 
   // "admin.registries.bitstream-formats.title": "Bitstream Format Registry",
   "admin.registries.bitstream-formats.title": "Clàr-lann Fhòrmatan Bitstream",
+
+
 
   // "admin.registries.metadata.breadcrumbs": "Metadata registry",
   "admin.registries.metadata.breadcrumbs": "Clàr-lann metadata",
@@ -209,6 +213,8 @@
   // "admin.registries.metadata.title": "Metadata Registry",
   "admin.registries.metadata.title": "Clàr-lann Metadata",
 
+
+
   // "admin.registries.schema.breadcrumbs": "Metadata schema",
   "admin.registries.schema.breadcrumbs": "Sgeama Metadata",
 
@@ -226,6 +232,8 @@
 
   // "admin.registries.schema.fields.table.field": "Field",
   "admin.registries.schema.fields.table.field": "Raon",
+  // TODO New key - Add a translation
+  "admin.registries.schema.fields.table.id": "ID",
 
   // "admin.registries.schema.fields.table.scopenote": "Scope Note",
   "admin.registries.schema.fields.table.scopenote": "Nota Leudachd",
@@ -258,13 +266,13 @@
   "admin.registries.schema.notification.deleted.success": "Chaidh {{amount}} sgeamaichean metadata a dhubhadh às",
 
   // "admin.registries.schema.notification.edited": "Successfully edited metadata schema \"{{prefix}}\"",
-  "admin.registries.schema.notification.edited": 'Chaidh sgeama metadata "{{prefix}}" a dheasachadh',
+  "admin.registries.schema.notification.edited": "Chaidh sgeama metadata \"{{prefix}}\" a dheasachadh",
 
   // "admin.registries.schema.notification.failure": "Error",
   "admin.registries.schema.notification.failure": "Mearachd",
 
   // "admin.registries.schema.notification.field.created": "Successfully created metadata field \"{{field}}\"",
-  "admin.registries.schema.notification.field.created": 'Chaidh raon metadata "{{field}}" a chruthachadh',
+  "admin.registries.schema.notification.field.created": "Chaidh raon metadata \"{{field}}\" a chruthachadh",
 
   // "admin.registries.schema.notification.field.deleted.failure": "Failed to delete {{amount}} metadata fields",
   "admin.registries.schema.notification.field.deleted.failure": "Cha deach {{amount}} sgeamaichean metadata a dhubhadh às",
@@ -378,22 +386,22 @@
   "admin.access-control.epeople.form.return": "Air ais",
 
   // "admin.access-control.epeople.form.notification.created.success": "Successfully created EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.created.success": 'Chaidh E-Neach "{{name}}" a chruthachadh',
+  "admin.access-control.epeople.form.notification.created.success": "Chaidh E-Neach \"{{name}}\" a chruthachadh",
 
   // "admin.access-control.epeople.form.notification.created.failure": "Failed to create EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.created.failure": 'Cha deach E-Neach "{{name}}" a chruthachadh',
+  "admin.access-control.epeople.form.notification.created.failure": "Cha deach E-Neach \"{{name}}\" a chruthachadh",
 
   // "admin.access-control.epeople.form.notification.created.failure.emailInUse": "Failed to create EPerson \"{{name}}\", email \"{{email}}\" already in use.",
-  "admin.access-control.epeople.form.notification.created.failure.emailInUse": 'Cha deach E-Neach "{{name}}" a chruthachadh; post-d "{{email}}"ga chleachdadh mu thràth.',
+  "admin.access-control.epeople.form.notification.created.failure.emailInUse": "Cha deach E-Neach \"{{name}}\" a chruthachadh; post-d \"{{email}}\"ga chleachdadh mu thràth.",
 
   // "admin.access-control.epeople.form.notification.edited.failure.emailInUse": "Failed to edit EPerson \"{{name}}\", email \"{{email}}\" already in use.",
-  "admin.access-control.epeople.form.notification.edited.failure.emailInUse": 'Cha do dh\'obraich deasachadh air E-Neach "{{name}}"; post-d "{{email}}"ga chleachdadh mu thràth.',
+  "admin.access-control.epeople.form.notification.edited.failure.emailInUse": "Cha do dh'obraich deasachadh air E-Neach \"{{name}}\"; post-d \"{{email}}\"ga chleachdadh mu thràth.",
 
   // "admin.access-control.epeople.form.notification.edited.success": "Successfully edited EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.edited.success": 'Chaidh E-Neach "{{name}}" a dheasachadh',
+  "admin.access-control.epeople.form.notification.edited.success": "Chaidh E-Neach \"{{name}}\" a dheasachadh",
 
   // "admin.access-control.epeople.form.notification.edited.failure": "Failed to edit EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.edited.failure": 'Cha deach E-Neach "{{name}}" a dheasachadh',
+  "admin.access-control.epeople.form.notification.edited.failure": "Cha deach E-Neach \"{{name}}\" a dheasachadh",
 
   // "admin.access-control.epeople.form.notification.deleted.success": "Successfully deleted EPerson \"{{name}}\"",
   "admin.access-control.epeople.form.notification.deleted.success": 'Chaidh E-Neach "{{name}}" a dhubhadh às',
@@ -423,7 +431,9 @@
   "admin.access-control.epeople.notification.deleted.failure": 'Cha deach E-Neach "{{name}}" a dhubhadh às',
 
   // "admin.access-control.epeople.notification.deleted.success": "Successfully deleted EPerson: \"{{name}}\"",
-  "admin.access-control.epeople.notification.deleted.success": 'Chaidh E-Neach "{{name}}" a dhubhadh às',
+  "admin.access-control.epeople.notification.deleted.success": "Chaidh E-Neach \"{{name}}\" a dhubhadh às",
+
+
 
   // "admin.access-control.groups.title": "Groups",
   "admin.access-control.groups.title": "Buidhnean",
@@ -480,16 +490,16 @@
   "admin.access-control.groups.table.edit.buttons.edit": 'Deasaich "{{name}}"',
 
   // "admin.access-control.groups.table.edit.buttons.remove": "Delete \"{{name}}\"",
-  "admin.access-control.groups.table.edit.buttons.remove": 'Dubh às "{{name}}"',
+  "admin.access-control.groups.table.edit.buttons.remove": "Dubh às \"{{name}}\"",
 
   // "admin.access-control.groups.no-items": "No groups found with this in their name or this as UUID",
   "admin.access-control.groups.no-items": "Cha lorgar buidhnean aig a bheil seo nan ainm no seo mar UUID",
 
   // "admin.access-control.groups.notification.deleted.success": "Successfully deleted group \"{{name}}\"",
-  "admin.access-control.groups.notification.deleted.success": 'Chaidh am buidheann "{{name}}" a dhubhadh às',
+  "admin.access-control.groups.notification.deleted.success": "Chaidh am buidheann \"{{name}}\" a dhubhadh às",
 
   // "admin.access-control.groups.notification.deleted.failure.title": "Failed to delete group \"{{name}}\"",
-  "admin.access-control.groups.notification.deleted.failure.title": 'Cha deach am buidheann "{{name}}" a dhubhadh às',
+  "admin.access-control.groups.notification.deleted.failure.title": "Cha deach am buidheann \"{{name}}\" a dhubhadh às",
 
   // "admin.access-control.groups.notification.deleted.failure.content": "Cause: \"{{cause}}\"",
   "admin.access-control.groups.notification.deleted.failure.content": 'Adhbhar: "{{cause}}"',
@@ -516,7 +526,7 @@
   "admin.access-control.groups.form.groupDescription": "Cunntas",
 
   // "admin.access-control.groups.form.notification.created.success": "Successfully created Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.created.success": 'Chaidh Buidheann "{{name}}" a chruthachadh',
+  "admin.access-control.groups.form.notification.created.success": "Chaidh Buidheann \"{{name}}\" a chruthachadh",
 
   // "admin.access-control.groups.form.notification.created.failure": "Failed to create Group \"{{name}}\"",
   "admin.access-control.groups.form.notification.created.failure": 'Cha deach Buidheann "{{name}}" a chruthachadh',
@@ -525,13 +535,13 @@
   "admin.access-control.groups.form.notification.created.failure.groupNameInUse": 'Cha deach Buidheann air a bheil "{{name}}" a chruthachadh. Dèan cinnteach nach eil an t-ainm ga chleachdadh mu thràth.',
 
   // "admin.access-control.groups.form.notification.edited.failure": "Failed to edit Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.edited.failure": 'Cha deach Buidheann "{{name}}" a dheasachadh',
+  "admin.access-control.groups.form.notification.edited.failure": "Cha deach Buidheann \"{{name}}\" a dheasachadh",
 
   // "admin.access-control.groups.form.notification.edited.failure.groupNameInUse": "Name \"{{name}}\" already in use!",
   "admin.access-control.groups.form.notification.edited.failure.groupNameInUse": 'An t-ainm "{{name}}"ga chleachdadh mu thràth!',
 
   // "admin.access-control.groups.form.notification.edited.success": "Successfully edited Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.edited.success": 'Chaidh Buidheann "{{name}}" a dheasachadh',
+  "admin.access-control.groups.form.notification.edited.success": "Chaidh Buidheann \"{{name}}\" a dheasachadh",
 
   // "admin.access-control.groups.form.actions.delete": "Delete Group",
   "admin.access-control.groups.form.actions.delete": "Dubh às Buidheann",
@@ -540,7 +550,7 @@
   "admin.access-control.groups.form.delete-group.modal.header": 'Dubh às Buidheann "{{ dsoName }}"',
 
   // "admin.access-control.groups.form.delete-group.modal.info": "Are you sure you want to delete Group \"{{ dsoName }}\"",
-  "admin.access-control.groups.form.delete-group.modal.info": 'A bheil thu cinnteach gu bheil thu airson Buidheann "{{ dsoName }}" a dhubhadh às',
+  "admin.access-control.groups.form.delete-group.modal.info": "A bheil thu cinnteach gu bheil thu airson Buidheann \"{{ dsoName }}\" a dhubhadh às",
 
   // "admin.access-control.groups.form.delete-group.modal.cancel": "Cancel",
   "admin.access-control.groups.form.delete-group.modal.cancel": "Cansail",
@@ -552,7 +562,7 @@
   "admin.access-control.groups.form.notification.deleted.success": 'Chaidh buidheann "{{ name }}" a dhubhadh às',
 
   // "admin.access-control.groups.form.notification.deleted.failure.title": "Failed to delete group \"{{ name }}\"",
-  "admin.access-control.groups.form.notification.deleted.failure.title": 'Cha deach buidheann "{{ name }}" a dhubhadh às',
+  "admin.access-control.groups.form.notification.deleted.failure.title": "Cha deach buidheann \"{{ name }}\" a dhubhadh às",
 
   // "admin.access-control.groups.form.notification.deleted.failure.content": "Cause: \"{{ cause }}\"",
   "admin.access-control.groups.form.notification.deleted.failure.content": 'Adhbhar: "{{ cause }}"',
@@ -612,7 +622,7 @@
   "admin.access-control.groups.form.members-list.notification.failure.deleteMember": 'Cha deach ball "{{name}}" a thoirt às',
 
   // "admin.access-control.groups.form.members-list.table.edit.buttons.add": "Add member with name \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.table.edit.buttons.add": 'Cuir-ris ball air a bheil an t-ainm "{{name}}"',
+  "admin.access-control.groups.form.members-list.table.edit.buttons.add": "Cuir-ris ball air a bheil an t-ainm \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.notification.failure.noActiveGroup": "No current active group, submit a name first.",
   "admin.access-control.groups.form.members-list.notification.failure.noActiveGroup": "Chan eil buidheann beò ann an-dràsta; cuir a-steach ainm an toiseach.",
@@ -624,7 +634,7 @@
   "admin.access-control.groups.form.members-list.no-items": "Cha deach E-Dhaoine a lorg san rannsachadh ud",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure": "Something went wrong: \"{{cause}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.failure": 'Chaidh rudeigin ceàrr: "{{cause}}"',
+  "admin.access-control.groups.form.subgroups-list.notification.failure": "Chaidh rudeigin ceàrr: \"{{cause}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.head": "Groups",
   "admin.access-control.groups.form.subgroups-list.head": "Buidhnean",
@@ -666,13 +676,13 @@
   "admin.access-control.groups.form.subgroups-list.notification.success.addSubgroup": 'Chaidh am fo-bhuidheann "{{name}}" a chur-ris',
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": "Failed to add subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": 'Cha deach am fo-bhuidheann "{{name}}" a chur-ris',
+  "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": "Cha deach am fo-bhuidheann \"{{name}}\" a chur-ris",
 
   // "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Successfully deleted subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": 'Chaidh am fo-bhuidheann "{{name}}" a dhubhadh às',
+  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Chaidh am fo-bhuidheann \"{{name}}\" a dhubhadh às",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": "Failed to delete subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": 'Cha deach am fo-bhuidheann "{{name}}" a dhubhadh às',
+  "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": "Cha deach am fo-bhuidheann \"{{name}}\" a dhubhadh às",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure.noActiveGroup": "No current active group, submit a name first.",
   "admin.access-control.groups.form.subgroups-list.notification.failure.noActiveGroup": "Chan eil buidheann beò ann an-dràsta; cuir a-steach ainm an toiseach.",
@@ -688,6 +698,8 @@
 
   // "admin.access-control.groups.form.return": "Back",
   "admin.access-control.groups.form.return": "Air ais",
+
+
 
   // "admin.search.breadcrumbs": "Administrative Search",
   "admin.search.breadcrumbs": "Rannsachadh Rianachd",
@@ -724,6 +736,9 @@
 
   // "administrativeView.search.results.head": "Administrative Search",
   "administrativeView.search.results.head": "Rannsachadh Rianachd",
+
+
+
 
   // "admin.workflow.breadcrumbs": "Administer Workflow",
   "admin.workflow.breadcrumbs": "Rianaich Sruth-obrach",
@@ -770,6 +785,9 @@
   // "admin.metadata-import.page.error.addFile": "Select file first!",
   "admin.metadata-import.page.error.addFile": "Tagh faidhle an toiseach!",
 
+
+
+
   // "auth.errors.invalid-user": "Invalid email address or password.",
   "auth.errors.invalid-user": "Seòladh post-d no facal-faire neo-bhrìgheil.",
 
@@ -778,6 +796,8 @@
 
   // "auth.messages.token-refresh-failed": "Refreshing your session token failed. Please log in again.",
   "auth.messages.token-refresh-failed": "Cha do dh'obraich an t-ùrachadh air an t-seisean. Log a-steach a-rithist.",
+
+
 
   // "bitstream.download.page": "Now downloading {{bitstream}}..." ,
   "bitstream.download.page": "A' luchdachadh a-nuas {{bitstream}}...",
@@ -796,7 +816,7 @@
 
   // "bitstream.edit.form.description.hint": "Optionally, provide a brief description of the file, for example \"<i>Main article</i>\" or \"<i>Experiment data readings</i>\".",
   // TODO New key - Add a translation
-  "bitstream.edit.form.description.hint": 'Ma thogras tu, thoir cunntas goirid air an fhaidhle, mar eisimpleir "<i>Prìomh artaigil</i>" no "<i>Dàta deuchainn</i>".',
+  "bitstream.edit.form.description.hint": "Ma thogras tu, thoir cunntas goirid air an fhaidhle, mar eisimpleir \"<i>Prìomh artaigil</i>\" no \"<i>Dàta deuchainn</i>\".",
 
   // "bitstream.edit.form.description.label": "Description",
   "bitstream.edit.form.description.label": "Cunntas",
@@ -902,6 +922,8 @@
 
   // "bitstream-request-a-copy.submit.error": "Something went wrong with submitting the item request.",
   "bitstream-request-a-copy.submit.error": "Chaidh rudeigin ceàrr a' cur iarrtas a-steach airson an nì.",
+
+
 
   // "browse.comcol.by.author": "By Author",
   "browse.comcol.by.author": "A Rèir Ùghdar",
@@ -1020,8 +1042,11 @@
   // "browse.title": "Browsing {{ collection }} by {{ field }} {{ value }}",
   "browse.title": "A' brobhsadh {{ collection }} a rèir {{ field }} {{ value }}",
 
+
   // "chips.remove": "Remove chip",
   "chips.remove": "Thoir às sgealb",
+
+
 
   // "collection.create.head": "Create a Collection",
   "collection.create.head": "Cruthaich Cruinneachadh",
@@ -1076,7 +1101,7 @@
   "collection.edit.item-mapper.cancel": "Cansail",
 
   // "collection.edit.item-mapper.collection": "Collection: \"<b>{{name}}</b>\"",
-  "collection.edit.item-mapper.collection": 'Cruinneachadh: "<b>{{name}}</b>"',
+  "collection.edit.item-mapper.collection": "Cruinneachadh: \"<b>{{name}}</b>\"",
 
   // "collection.edit.item-mapper.confirm": "Map selected items",
   "collection.edit.item-mapper.confirm": "Map nithean taghte",
@@ -1242,6 +1267,8 @@
   // "collection.edit.tabs.source.title": "Collection Edit - Content Source",
   "collection.edit.tabs.source.title": "Deasachadh Cruinneachaidh - Stòr Susbaint",
 
+
+
   // "collection.edit.template.add-button": "Add",
   "collection.edit.template.add-button": "Cuir-ris",
 
@@ -1261,7 +1288,7 @@
   "collection.edit.template.error": "Bha mearachd ann a' faighinn air ais teamplaid an nì",
 
   // "collection.edit.template.head": "Edit Template Item for Collection \"{{ collection }}\"",
-  "collection.edit.template.head": 'Deasaich Teamplaid Nì do Chruinneachadh "{{ collection }}"',
+  "collection.edit.template.head": "Deasaich Teamplaid Nì do Chruinneachadh \"{{ collection }}\"",
 
   // "collection.edit.template.label": "Template item",
   "collection.edit.template.label": "Teamplaid nì",
@@ -1326,6 +1353,8 @@
 
   // "collection.page.news": "News",
   "collection.page.news": "Naidheachdan",
+
+
 
   // "collection.select.confirm": "Confirm selected",
   "collection.select.confirm": "Dearbh taghadh",
@@ -1406,11 +1435,16 @@
   // "collection.source.controls.harvest.no-information": "N/A",
   "collection.source.controls.harvest.no-information": "N/A",
 
+  // "collection.source.controls.harvest.no-information": "N/A",
+  "collection.source.controls.harvest.no-information": "N/A",
+
   // "collection.source.update.notifications.error.content": "The provided settings have been tested and didn't work.",
   "collection.source.update.notifications.error.content": "Chaidh an seatadh ud fheuchainn agus cha do dh'obraich e.",
 
   // "collection.source.update.notifications.error.title": "Server Error",
   "collection.source.update.notifications.error.title": "Mearachd Frithealaiche",
+
+
 
   // "communityList.breadcrumbs": "Community List",
   "communityList.breadcrumbs": "Liosta Coimhearsnachd",
@@ -1528,6 +1562,8 @@
 
   // "community.edit.tabs.authorizations.title": "Community Edit - Authorizations",
   "community.edit.tabs.authorizations.title": "Deasachadh Coimhearsnachd - Barantasan",
+
+
 
   // "community.listelement.badge": "Community",
   "community.listelement.badge": "Coimhearsnachd",
@@ -1704,6 +1740,8 @@
   // "cookies.consent.app.description.preferences": "Required for saving your preferences",
   "cookies.consent.app.description.preferences": "Riatanach airson do roghainnean a shàbhaladh",
 
+
+
   // "cookies.consent.app.title.acknowledgement": "Acknowledgement",
   "cookies.consent.app.title.acknowledgement": "Buidheachas",
 
@@ -1740,6 +1778,8 @@
 
   // "curation-task.task.vscan.label": "Virus Scan",
   "curation-task.task.vscan.label": "Sgan air Bhìorasan",
+
+
 
   // "curation.form.task-select.label": "Task:",
   "curation.form.task-select.label": "Obair:",
@@ -1908,7 +1948,7 @@
 
   // "error.invalid-search-query": "Search query is not valid. Please check <a href=\"https://solr.apache.org/guide/query-syntax-and-parsing.html\" target=\"_blank\">Solr query syntax</a> best practices for further information about this error.",
   // TODO New key - Add a translation
-  "error.invalid-search-query": 'Chan eil a\' cheist rannsachaidh brìgheil. Thoir sùil air <a href="https://solr.apache.org/guide/query-syntax-and-parsing.html" targaid="_bàn">Solr query syntax</a> sàr chleachdadh airson tuilleadh fiosrachaidh air a\' mhearachd seo.',
+  "error.invalid-search-query": "Chan eil a' cheist rannsachaidh brìgheil. Thoir sùil air <a href=\"https://solr.apache.org/guide/query-syntax-and-parsing.html\" targaid=\"_bàn\">Solr query syntax</a> sàr chleachdadh airson tuilleadh fiosrachaidh air a' mhearachd seo.",
 
   // "error.sub-collections": "Error fetching sub-collections",
   "error.sub-collections": "Mearachd a' faighinn fo-chruinneachaidhean",
@@ -1965,6 +2005,8 @@
 
   // "footer.link.end-user-agreement":"End User Agreement",
   "footer.link.end-user-agreement": "Aonta Neach-cleachdaidh Deireannach",
+
+
 
   // "forgot-email.form.header": "Forgot Password",
   "forgot-email.form.header": "Dìochuimhne air Facal-faire",
@@ -2130,6 +2172,8 @@
   // "form.repeatable.sort.tip": "Drop the item in the new position",
   "form.repeatable.sort.tip": "Leig às an nì san àite ùr",
 
+
+
   // "grant-deny-request-copy.deny": "Don't send copy",
   "grant-deny-request-copy.deny": "Na cuir copaidh",
 
@@ -2195,6 +2239,8 @@
   // "grant-request-copy.success": "Successfully granted item request",
   "grant-request-copy.success": "Chaidh an t-iarrtas airson nì a cheadachadh",
 
+
+
   // "home.description": "",
   "home.description": "",
 
@@ -2212,6 +2258,8 @@
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Tagh coimhearsnachd agus brobhs na cruinneachaidhean.",
+
+
 
   // "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
   "info.end-user-agreement.accept": "Leugh mi agus ghabh mi ri Aonta an Neach-cleachdaidh Dheireannaich",
@@ -2258,6 +2306,8 @@
   // "item.edit.authorizations.title": "Edit item's Policies",
   "item.edit.authorizations.title": "Deasaich Poileasaidhean nì",
 
+
+
   // "item.badge.private": "Private",
   "item.badge.private": "Prìobhaideach",
 
@@ -2273,7 +2323,7 @@
   // "item.bitstreams.upload.bundle.new": "Create bundle",
   "item.bitstreams.upload.bundle.new": "Cruthaich trusgan",
 
-  // "item.bitstreams.upload.bundles.empty": "This item doesn\'t contain any bundles to upload a bitstream to.",
+  // "item.bitstreams.upload.bundles.empty": "This item doesn't contain any bundles to upload a bitstream to.",
   "item.bitstreams.upload.bundles.empty": "Chan eil trusganan san nì seo dhan gabh bitstream a luchdachadh suas.",
 
   // "item.bitstreams.upload.cancel": "Cancel",
@@ -2296,6 +2346,8 @@
 
   // "item.bitstreams.upload.title": "Upload bitstream",
   "item.bitstreams.upload.title": "Luchdaich suas bitstream",
+
+
 
   // "item.edit.bitstreams.bundle.edit.buttons.upload": "Upload",
   "item.edit.bitstreams.bundle.edit.buttons.upload": "Luchdaich suas",
@@ -2549,6 +2601,8 @@
   // "item.edit.metadata.save-button": "Save",
   "item.edit.metadata.save-button": "Sàbhail",
 
+
+
   // "item.edit.modify.overview.field": "Field",
   "item.edit.modify.overview.field": "Raon",
 
@@ -2557,6 +2611,8 @@
 
   // "item.edit.modify.overview.value": "Value",
   "item.edit.modify.overview.value": "Luach",
+
+
 
   // "item.edit.move.cancel": "Back",
   "item.edit.move.cancel": "Air ais",
@@ -2597,6 +2653,8 @@
   // "item.edit.move.title": "Move item",
   "item.edit.move.title": "Gluais nì",
 
+
+
   // "item.edit.private.cancel": "Cancel",
   "item.edit.private.cancel": "Cansail",
 
@@ -2614,6 +2672,8 @@
 
   // "item.edit.private.success": "The item is now private",
   "item.edit.private.success": "Tha an nì prìobhaideach a-nis",
+
+
 
   // "item.edit.public.cancel": "Cancel",
   "item.edit.public.cancel": "Cansail",
@@ -2633,6 +2693,8 @@
   // "item.edit.public.success": "The item is now public",
   "item.edit.public.success": "Tha an nì poblach a-nis",
 
+
+
   // "item.edit.reinstate.cancel": "Cancel",
   "item.edit.reinstate.cancel": "Cansail",
 
@@ -2650,6 +2712,8 @@
 
   // "item.edit.reinstate.success": "The item was reinstated successfully",
   "item.edit.reinstate.success": "Chaidh an nì a chur air ais ann",
+
+
 
   // "item.edit.relationships.discard-button": "Discard",
   "item.edit.relationships.discard-button": "Cuir às",
@@ -2741,8 +2805,8 @@
   // "item.edit.tabs.status.buttons.mappedCollections.label": "Manage mapped collections",
   "item.edit.tabs.status.buttons.mappedCollections.label": "Manaids cruinneachaidhean mapaichte",
 
-  // "item.edit.tabs.status.buttons.move.button": "Move...",
-  "item.edit.tabs.status.buttons.move.button": "Gluais...",
+  // "item.edit.tabs.status.buttons.move.button": "Move this Item to a different Collection",
+  "item.edit.tabs.status.buttons.move.button": "Helyezze át ezt az elemet egy másik gyűjteménybe",
 
   // "item.edit.tabs.status.buttons.move.label": "Move item to another collection",
   "item.edit.tabs.status.buttons.move.label": "Gluais nì gu cruinneachadh eile",
@@ -2768,8 +2832,8 @@
   // "item.edit.tabs.status.buttons.unauthorized": "You're not authorized to perform this action",
   "item.edit.tabs.status.buttons.unauthorized": "Chan eil cead agad an gnìomh seo a dhèanamh",
 
-  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw...",
-  "item.edit.tabs.status.buttons.withdraw.button": "Thoir air falbh...",
+  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw this item",
+  "item.edit.tabs.status.buttons.withdraw.button": "Thoir air falbh",
 
   // "item.edit.tabs.status.buttons.withdraw.label": "Withdraw item from the repository",
   "item.edit.tabs.status.buttons.withdraw.label": "Thoir nì air falbh bhon ionad-tasgaidh",
@@ -2828,6 +2892,8 @@
 
   // "item.edit.withdraw.success": "The item was withdrawn successfully",
   "item.edit.withdraw.success": "Chaidh an nì a thoirt air falbh",
+
+
 
   // "item.listelement.badge": "Item",
   "item.listelement.badge": "Nì",
@@ -3150,6 +3216,8 @@
   // "item.version.edit.notification.failure" : "The summary of version number {{version}} has not been changed",
   "item.version.edit.notification.failure": "Cha deach geàrr-chunntas dreach àireamh {{version}} atharrachadh",
 
+
+
   // "journal.listelement.badge": "Journal",
   "journal.listelement.badge": "Diornal",
 
@@ -3203,6 +3271,8 @@
 
   // "journalissue.page.titleprefix": "Journal Issue: ",
   "journalissue.page.titleprefix": "Deasachadh Diornal: ",
+
+
 
   // "journalvolume.listelement.badge": "Journal Volume",
   "journalvolume.listelement.badge": "Àireamh Diornal",
@@ -3359,6 +3429,8 @@
   // "menu.header.admin.description": "Management menu",
   "menu.header.admin.description": "Clàr-iùil manaidsidh",
 
+
+
   // "menu.section.access_control": "Access Control",
   "menu.section.access_control": "Riaghladh Cothruim",
 
@@ -3371,8 +3443,12 @@
   // "menu.section.access_control_people": "People",
   "menu.section.access_control_people": "Daoine",
 
+
+
   // "menu.section.admin_search": "Admin Search",
   "menu.section.admin_search": "Rannsachadh Rianachd",
+
+
 
   // "menu.section.browse_community": "This Community",
   "menu.section.browse_community": "A' Choimhearsnachd seo",
@@ -3386,7 +3462,7 @@
   // "menu.section.browse_community_by_title": "By Title",
   "menu.section.browse_community_by_title": "A rèir Tiotal",
 
-  // "menu.section.browse_global": "ALl of Central Metatada Repository",
+  // "menu.section.browse_global": "All of DSpace",
   "menu.section.browse_global": "DSpace gu lèir",
 
   // "menu.section.browse_global_by_author": "By Author",
@@ -3410,6 +3486,8 @@
   // "menu.section.curation_task": "Curation Task",
   "menu.section.curation_task": "Obair Eagrachaidh",
 
+
+
   // "menu.section.edit": "Edit",
   "menu.section.edit": "Deasaich",
 
@@ -3421,6 +3499,8 @@
 
   // "menu.section.edit_item": "Item",
   "menu.section.edit_item": "Nì",
+
+
 
   // "menu.section.export": "Export",
   "menu.section.export": "Mach-ghluais",
@@ -3436,6 +3516,8 @@
 
   // "menu.section.export_metadata": "Metadata",
   "menu.section.export_metadata": "Metadata",
+
+
 
   // "menu.section.icon.access_control": "Access Control menu section",
   "menu.section.icon.access_control": " Earrann clàr-iùil Riaghladh Cothruim",
@@ -3509,6 +3591,8 @@
   // "menu.section.new_process": "Process",
   "menu.section.new_process": "Pròiseas",
 
+
+
   // "menu.section.pin": "Pin sidebar",
   "menu.section.pin": "Prìnich bàr-taoibh",
 
@@ -3517,6 +3601,8 @@
 
   // "menu.section.processes": "Processes",
   "menu.section.processes": "Pròiseasan",
+
+
 
   // "menu.section.registries": "Registries",
   "menu.section.registries": "Clàr-lannan",
@@ -3781,6 +3867,8 @@
   // "pagination.sort-direction": "Sort Options",
   "pagination.sort-direction": "Roghainnean seòrsachaidh",
 
+
+
   // "person.listelement.badge": "Person",
   "person.listelement.badge": "Neach",
 
@@ -3882,6 +3970,8 @@
   // "process.new.breadcrumbs": "Create a new process",
   "process.new.breadcrumbs": "Cruthaich pròiseas ùr",
 
+
+
   // "process.detail.arguments" : "Arguments",
   "process.detail.arguments": "Argamaidean",
 
@@ -3926,6 +4016,8 @@
 
   // "process.detail.create" : "Create similar process",
   "process.detail.create": "Cruthaich pròiseas coltach",
+
+
 
   // "process.overview.table.finish" : "Finish time (UTC)",
   "process.overview.table.finish": "Uair crìochnachaidh (UTC)",
@@ -4038,6 +4130,8 @@
   // "profile.title": "Update Profile",
   "profile.title": "Ùraich Iomradh Neach-cleachdaidh",
 
+
+
   // "project.listelement.badge": "Research Project",
   "project.listelement.badge": "Pròiseact Rannsachaidh",
 
@@ -4070,6 +4164,8 @@
 
   // "project.search.results.head": "Project Search Results",
   "project.search.results.head": "Toraidheadh Pròiseact Rannsachaidh",
+
+
 
   // "publication.listelement.badge": "Publication",
   "publication.listelement.badge": "Foillseachadh",
@@ -4208,6 +4304,8 @@
 
   // "register-page.registration.error.content": "An error occured when registering the following email address: {{ email }}",
   "register-page.registration.error.content": "Bha mearachd ann a' clàradh a' phuist-d a leanas: {{ email }}",
+
+
 
   // "relationships.add.error.relationship-type.content": "No suitable match could be found for relationship type {{ type }} between the two items",
   // TODO New key - Add a translation
@@ -4495,6 +4593,8 @@
   // "search.filters.applied.f.withdrawn": "Withdrawn",
   "search.filters.applied.f.withdrawn": "Air a thoirt air falbh",
 
+
+
   // "search.filters.filter.author.head": "Author",
   "search.filters.filter.author.head": "Ùghdar",
 
@@ -4702,6 +4802,8 @@
   // "search.filters.filter.submitter.label": "Search submitter",
   "search.filters.filter.submitter.label": "Rannsaich neach-cur-a-steach",
 
+
+
   // "search.filters.entityType.JournalIssue": "Journal Issue",
   "search.filters.entityType.JournalIssue": "Deasachadh Diornal",
 
@@ -4759,8 +4861,10 @@
   // "search.results.empty": "Your search returned no results.",
   "search.results.empty": "Cha do thill an rannsachadh toraidhean.",
 
+
   // "default.search.results.head": "Search Results",
   "default.search.results.head": "Toraidhean Rannsachaidh",
+
 
   // "search.sidebar.close": "Back to results",
   "search.sidebar.close": "Air ais gu toraidhean",
@@ -4782,6 +4886,8 @@
 
   // "search.sidebar.settings.title": "Settings",
   "search.sidebar.settings.title": "Seatadh",
+
+
 
   // "search.view-switch.show-detail": "Show detail",
   "search.view-switch.show-detail": "Seall mion-fhiosrachadh",
@@ -4860,6 +4966,8 @@
 
   // "statistics.table.header.views": "Views",
   "statistics.table.header.views": "Seallaidhean",
+
+
 
   // "submission.edit.breadcrumbs": "Edit Submission",
   "submission.edit.breadcrumbs": "Deasaich Cur-a-steach",
@@ -5350,8 +5458,8 @@
   // "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Search Results",
   "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Toraidhean Rannsachaidh",
 
-  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don\'t you can still use it for this submission.",
-  "submission.sections.describe.relationship-lookup.name-variant.notification.content": 'A bheil thu airson "{{ value }}" a shàbhaladh mar ainm diofraichte don neach seo airson gum faigh thu fhèin agus daoine eile a chleachdadh airson chur-a-steachan ri thighinn? Mura bheil, is urrainn dhut fhathast a chleachdadh airson a\' chur-a-steach seo.',
+  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don't you can still use it for this submission.",
+  	"submission.sections.describe.relationship-lookup.name-variant.notification.content": "A bheil thu airson \"{{ value }}\" a shàbhaladh mar ainm diofraichte don neach seo airson gum faigh thu fhèin agus daoine eile a chleachdadh airson chur-a-steachan ri thighinn? Mura bheil, is urrainn dhut fhathast a chleachdadh airson a' chur-a-steach seo.",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Save a new name variant",
   "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Sàbhail ainm diofraichte ùr",
@@ -5422,6 +5530,8 @@
   // "submission.sections.general.sections_not_valid": "There are incomplete sections.",
   "submission.sections.general.sections_not_valid": "Tha earrannan neo-chrìochnaichte ann.",
 
+
+
   // "submission.sections.submit.progressbar.CClicense": "Creative commons license",
   "submission.sections.submit.progressbar.CClicense": "Cead-cleachdaidh cruthachail",
 
@@ -5446,6 +5556,8 @@
 
   // "submission.sections.submit.progressbar.upload": "Upload files",
   "submission.sections.submit.progressbar.upload": "Luchdaich suas faidhlichean",
+
+
 
   // "submission.sections.status.errors.title": "Errors",
   "submission.sections.status.errors.title": "Mearachdan",
@@ -5539,7 +5651,7 @@
   // TODO New key - Add a translation
   "submission.sections.upload.header.policy.default.withlist": "Thoir fa-near gum bi cothrom air faidhlichean a chaidh a luchdachadh gu cruinneachadh {{collectionName}}, cho math ris na chaidh a cho-dhùnadh airson an fhaidhle air leth, aig a' bhuidheann/na buidhnean a leanas:",
 
-  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files just dragging & dropping them everywhere in the page</strong>",
+  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files by dragging & dropping them anywhere on the page.</strong>",
   "submission.sections.upload.info": "An seo gheibh thu na faidhlichean gu lèir san nì an-dràsta. Is urrainn dhut metadata an fhaidhle ùrachadh agus cothrom fhaighinn air cumhachan no <strong>faidhlichean eile a luchdachadh suas le bhith gan slaodadh agus gan leigeil às air feadh na duilleig</strong>",
 
   // "submission.sections.upload.no-entry": "No",
@@ -5560,17 +5672,21 @@
   // "submission.sections.upload.upload-successful": "Upload successful",
   "submission.sections.upload.upload-successful": "Dh'obraich an luchdachadh suas",
 
+
+
   // "submission.submit.breadcrumbs": "New submission",
   "submission.submit.breadcrumbs": "Cur-a-steach ùr",
 
   // "submission.submit.title": "New submission",
   "submission.submit.title": "Cur-a-steach ùr",
 
+
+
   // "submission.workflow.generic.delete": "Delete",
   "submission.workflow.generic.delete": "Dubh às",
 
   // "submission.workflow.generic.delete-help": "If you would to discard this item, select \"Delete\".  You will then be asked to confirm it.",
-  "submission.workflow.generic.delete-help": 'Ma tha thu airson cur às don nì seo, tagh "Dubh às".  An uair sin thèid iarraidh ort a dhearbhadh.',
+  "submission.workflow.generic.delete-help": "Ma tha thu airson cur às don nì seo, tagh \"Dubh às\".  An uair sin thèid iarraidh ort a dhearbhadh.",
 
   // "submission.workflow.generic.edit": "Edit",
   "submission.workflow.generic.edit": "Deasaich",
@@ -5632,6 +5748,8 @@
   // "submission.workflow.tasks.generic.success": "Operation successful",
   "submission.workflow.tasks.generic.success": "Dh'obraich an t-obrachadh",
 
+
+
   // "submission.workflow.tasks.pool.claim": "Claim",
   "submission.workflow.tasks.pool.claim": "Gabh",
 
@@ -5667,6 +5785,8 @@
 
   // "thumbnail.person.placeholder": "No Profile Picture Available",
   "thumbnail.person.placeholder": "Chan eil Dealbh Iomraidh ri Fhaighinn",
+
+
 
   // "title": "DSpace",
   title: "DSpace",

@@ -165,6 +165,8 @@
 
   // "admin.registries.bitstream-formats.table.name": "Name",
   "admin.registries.bitstream-formats.table.name": "Namn",
+  // TODO New key - Add a translation
+  "admin.registries.bitstream-formats.table.id": "ID",
 
   // "admin.registries.bitstream-formats.table.return": "Back",
   "admin.registries.bitstream-formats.table.return": "Tillbaka",
@@ -240,6 +242,8 @@
 
   // "admin.registries.schema.fields.table.field": "Field",
   "admin.registries.schema.fields.table.field": "Fält",
+  // TODO New key - Add a translation
+  "admin.registries.schema.fields.table.id": "ID",
 
   // "admin.registries.schema.fields.table.scopenote": "Scope Note",
   "admin.registries.schema.fields.table.scopenote": "Anmärkning (scope note)",
@@ -1058,6 +1062,8 @@
   // "chips.remove": "Remove chip",
   "chips.remove": "Radera chip",
 
+
+
   // "collection.create.head": "Create a Collection",
   "collection.create.head": "Skapa samling",
 
@@ -1863,6 +1869,8 @@
   // "dso-selector.set-scope.community.input-header": "Search for a community or collection",
   "dso-selector.set-scope.community.input-header": "Sök efter en samling eller enhet",
 
+
+
   // "confirmation-modal.export-metadata.header": "Export metadata for {{ dsoName }}",
   "confirmation-modal.export-metadata.header": "Exportera metadata från {{ dsoName }}",
 
@@ -1986,6 +1994,8 @@
 
   // "footer.link.feedback":"Send Feedback",
   "footer.link.feedback": "Skicka feedback",
+
+
 
   // "forgot-email.form.header": "Forgot Password",
   "forgot-email.form.header": "Glömt lösenord",
@@ -2303,6 +2313,8 @@
   // "info.feedback.page_help" : "Tha page related to your feedback",
   "info.feedback.page_help": "Den är sidan är relaterad till din feedback",
 
+
+
   // "item.alerts.private": "This item is non-discoverable",
   "item.alerts.private": "Denna post är dold vid sökning",
 
@@ -2330,7 +2342,7 @@
   // "item.bitstreams.upload.bundle.new": "Create bundle",
   "item.bitstreams.upload.bundle.new": "Skapa bunt",
 
-  // "item.bitstreams.upload.bundles.empty": "This item doesn\'t contain any bundles to upload a bitstream to.",
+  // "item.bitstreams.upload.bundles.empty": "This item doesn't contain any bundles to upload a bitstream to.",
   "item.bitstreams.upload.bundles.empty": "Denna post innehåller inga buntar som man kan ladda upp filer i.",
 
   // "item.bitstreams.upload.cancel": "Cancel",
@@ -2609,6 +2621,8 @@
   // "item.edit.modify.overview.value": "Value",
   "item.edit.modify.overview.value": "Värde",
 
+
+
   // "item.edit.move.cancel": "Back",
   "item.edit.move.cancel": "Tillbaka",
 
@@ -2792,8 +2806,8 @@
   // "item.edit.tabs.status.buttons.mappedCollections.label": "Manage mapped collections",
   "item.edit.tabs.status.buttons.mappedCollections.label": "Hantera mappade samlingar",
 
-  // "item.edit.tabs.status.buttons.move.button": "Move...",
-  "item.edit.tabs.status.buttons.move.button": "Flytta...",
+  // "item.edit.tabs.status.buttons.move.button": "Move this Item to a different Collection",
+  "item.edit.tabs.status.buttons.move.button": "Flytta detta föremål till en annan samling",
 
   // "item.edit.tabs.status.buttons.move.label": "Move item to another collection",
   "item.edit.tabs.status.buttons.move.label": "Flytta post till en annan samling",
@@ -2819,8 +2833,8 @@
   // "item.edit.tabs.status.buttons.unauthorized": "You're not authorized to perform this action",
   "item.edit.tabs.status.buttons.unauthorized": "Du saknar behörighet att utföra detta",
 
-  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw...",
-  "item.edit.tabs.status.buttons.withdraw.button": "Återkalla...",
+  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw this item",
+  "item.edit.tabs.status.buttons.withdraw.button": "dra tillbaka den här artikeln",
 
   // "item.edit.tabs.status.buttons.withdraw.label": "Withdraw item from the repository",
   "item.edit.tabs.status.buttons.withdraw.label": "Återkalla post från arkivet",
@@ -3205,6 +3219,8 @@
   // "item.version.edit.notification.failure" : "The summary of version number {{version}} has not been changed",
   "item.version.edit.notification.failure": "Sammanfattningen av version {{version}} har inte ändrats",
 
+
+
   // "journal.listelement.badge": "Journal",
   "journal.listelement.badge": "Tidskrift",
 
@@ -3567,6 +3583,8 @@
 
   // "menu.section.import_metadata": "Metadata",
   "menu.section.import_metadata": "Metadata",
+
+
 
   // "menu.section.new": "New",
   "menu.section.new": "Ny",
@@ -4050,6 +4068,8 @@
   // TODO New key - Add a translation
   "process.detail.create": "Create similar process",
 
+
+
   // "process.overview.table.finish" : "Finish time (UTC)",
   "process.overview.table.finish": "Sluttid (UTC)",
 
@@ -4347,6 +4367,8 @@
 
   // "register-page.registration.error.content": "An error occured when registering the following email address: {{ email }}",
   "register-page.registration.error.content": "Ett fel uppstod när kontot skulle skapas för: {{ email }}",
+
+
 
   // "relationships.add.error.relationship-type.content": "No suitable match could be found for relationship type {{ type }} between the two items",
   "relationships.add.error.relationship-type.content": "Det gick inte att hitta något som matchade relationstyp {{ type }} mellan dessa poster",
@@ -5506,8 +5528,8 @@
   // "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Search Results",
   "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Sökresultat",
 
-  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don\'t you can still use it for this submission.",
-  "submission.sections.describe.relationship-lookup.name-variant.notification.content": 'Vill du spara "{{ value }}" som en namnvariation för denna person? Om inte så kan du fortfarande använda det i detta bidrag.',
+  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don't you can still use it for this submission.",
+  "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Vill du spara \"{{ value }}\" som en namnvariation för denna person? Om inte så kan du fortfarande använda det i detta bidrag.",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Save a new name variant",
   "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Spara en ny namnvariation",
@@ -5704,7 +5726,7 @@
   // "submission.sections.upload.header.policy.default.withlist": "Please note that uploaded files in the {{collectionName}} collection will be accessible, in addition to what is explicitly decided for the single file, with the following group(s):",
   "submission.sections.upload.header.policy.default.withlist": "Notera att uppladdade filer i samlingen {{collectionName}} också kommer att vara åtkompliga för följande grupp(er):",
 
-  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files just dragging & dropping them everywhere in the page</strong>",
+  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files by dragging & dropping them anywhere on the page.</strong>",
   "submission.sections.upload.info": "Här visas samtliga filer som ingår i posten. Du kan uppdatera filernas metadata och villkor för åtkomst, samt <strong>ladda upp nya filer genom att dra och släppa dem här</strong>",
 
   // "submission.sections.upload.no-entry": "No",
@@ -5854,6 +5876,8 @@
 
   // "submission.workflow.tasks.pool.show-detail": "Show detail",
   "submission.workflow.tasks.pool.show-detail": "Visa detaljvy",
+
+
 
   // "thumbnail.default.alt": "Thumbnail Image",
   "thumbnail.default.alt": "Bild (thumbnail)",

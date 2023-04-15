@@ -1,6 +1,8 @@
 {
   // NOTE 1 - Doesn't exist on en_EN
 
+  // NOTE 1 - Doesn't exist on en_EN
+
   // "repository.title.prefixDSpace": "DSpace ::",
   "repository.title.prefixDSpace": "DSpace ::",
 
@@ -18,6 +20,18 @@
 
   // "idle.modal.extend-session":"Continue Session",
   "idle.modal.extend-session": "Continuar a Sessão",
+
+  // "submission.sections.describe.relationship-lookup.external-source.import-modal.isProjectOfPublication.added.new-entity": "New Entity Added!",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProjectOfPublication.added.new-entity": "Nova Entidade Adicionada!",
+
+  // "item.preview.project.funder.name": "Funder",
+  "item.preview.project.funder.name": "Financiador",
+
+  // "item.preview.project.funder.identifier": "Funder Identifier",
+  "item.preview.project.funder.identifier": "Identificador do Financiador",
+
+  // "item.preview.oaire.awardNumber": "Funding ID",
+  "item.preview.oaire.awardNumber": "ID de Financiamento",
 
   // NOTE 2 - Add to other languages - needed for OpenAIRE compliance - relations between entities
 
@@ -84,6 +98,27 @@
   // "relationships.isFundingAgencyOf.OrgUnit": "Funder",
   "relationships.isFundingAgencyOf.OrgUnit": "Financiador",
 
+  // "submission.edit.breadcrumbs": "Edit Submission",
+  "submission.edit.breadcrumbs": "Editar Submissão",
+
+  // "search.filters.filter.subject.label": "Search subject",
+  "search.filters.filter.subject.label": "Pesquisar Assunto",
+
+  // "search.filters.filter.entityType.label": "Search item type",
+  "search.filters.filter.entityType.label": "Pesquisar Tipo",
+
+  // "search.filters.filter.author.label": "Search author name",
+  "search.filters.filter.author.label": "Pesquisar Autor",
+
+  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  "sorting.dc.date.accessioned.ASC": "Data de Disponibilização Ascendente",
+
+  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  "sorting.dc.date.accessioned.DESC": "Data de Disponibilização Descendente",
+
+  // "search.search-form.placeholder": "Search the repository ...",
+  "search.search-form.placeholder": "Pesquisar ...",
+
   // Other strings
 
   //"submission.sections.describe.relationship-lookup.selection-tab.search-form.placeholder": "Search...",
@@ -125,8 +160,11 @@
   // "item.edit.return": "Back",
   "item.edit.return": "Voltar",
 
-  // "repository.title.prefix": "Central Metatada Repository",
+  // "repository.title.prefix": "DSpace Angular :: ",
   "repository.title.prefix": "DSpace ::",
+
+  // "search.filters.filter.dateIssued.max.label": "End",
+  "search.filters.filter.dateIssued.max.label": "Fim",
 
   // "thumbnail.person.placeholder": "No Profile Picture Available",
   "thumbnail.person.placeholder": "Sem Fotografia de Perfil",
@@ -199,6 +237,7 @@
 
   // "mydspace.search-form.placeholder": "Search in mydspace...",
   "mydspace.search-form.placeholder": "Pesquisar na Área Pessoal ...",
+
 
   // OLD strings
 
@@ -354,6 +393,8 @@
 
   // "admin.registries.bitstream-formats.table.name": "Name",
   "admin.registries.bitstream-formats.table.name": "Nome",
+  // TODO New key - Add a translation
+  "admin.registries.bitstream-formats.table.id": "ID",
 
   // "admin.registries.bitstream-formats.table.return": "Return",
   "admin.registries.bitstream-formats.table.return": "Voltar",
@@ -370,7 +411,7 @@
   // "admin.registries.bitstream-formats.table.supportLevel.head": "Support Level",
   "admin.registries.bitstream-formats.table.supportLevel.head": "Nível de Suporte",
 
-  // "admin.registries.bitstream-formats.title": "Central Metatada RepositoryBitstream Format Registry",
+  // "admin.registries.bitstream-formats.title": "DSpace Angular :: Bitstream Format Registry",
   "admin.registries.bitstream-formats.title": "DSpace :: Registo de Formato de Ficheiro",
 
   // "admin.registries.metadata.breadcrumbs": "Metadata registry",
@@ -409,14 +450,14 @@
   // "admin.registries.metadata.schemas.table.namespace": "Namespace",
   "admin.registries.metadata.schemas.table.namespace": "Namespace",
 
-  // "admin.registries.metadata.title": "Central Metatada RepositoryMetadata Registry",
+  // "admin.registries.metadata.title": "DSpace Angular :: Metadata Registry",
   "admin.registries.metadata.title": "DSpace :: Registo de Metadados",
 
   // "admin.registries.schema.breadcrumbs": "Metadata schema",
   "admin.registries.schema.breadcrumbs": "Esquema de Metadados",
 
   // "admin.registries.schema.description": "This is the metadata schema for \"{{namespace}}\".",
-  "admin.registries.schema.description": 'Este é o esquema de metadados para "{{namespace}}".',
+  "admin.registries.schema.description": "Este é o esquema de metadados para \"{{namespace}}\".",
 
   // "admin.registries.schema.fields.head": "Schema metadata fields",
   "admin.registries.schema.fields.head": "Campos do Esquema de Metadados",
@@ -429,6 +470,8 @@
 
   // "admin.registries.schema.fields.table.field": "Field",
   "admin.registries.schema.fields.table.field": "Campo",
+  // TODO New key - Add a translation
+  "admin.registries.schema.fields.table.id": "ID",
 
   // "admin.registries.schema.fields.table.scopenote": "Scope Note",
   "admin.registries.schema.fields.table.scopenote": "Descrição",
@@ -452,7 +495,7 @@
   "admin.registries.schema.head": "Esquema de Metadados",
 
   // "admin.registries.schema.notification.created": "Successfully created metadata schema \"{{prefix}}\"",
-  "admin.registries.schema.notification.created": 'Criou o esquema de metadados "{{prefix}}" com sucesso',
+  "admin.registries.schema.notification.created": "Criou o esquema de metadados \"{{prefix}}\" com sucesso",
 
   // "admin.registries.schema.notification.deleted.failure": "Failed to delete {{amount}} metadata schemas",
   "admin.registries.schema.notification.deleted.failure": "Falhou ao apagar {{amount}} esquema(s) de metadados",
@@ -461,13 +504,13 @@
   "admin.registries.schema.notification.deleted.success": "Apagou {{amount}} esquema(s) de metadados com sucesso",
 
   // "admin.registries.schema.notification.edited": "Successfully edited metadata schema \"{{prefix}}\"",
-  "admin.registries.schema.notification.edited": 'Editou o esquema de metadados "{{prefix}}" com sucesso',
+  "admin.registries.schema.notification.edited": "Editou o esquema de metadados \"{{prefix}}\" com sucesso",
 
   // "admin.registries.schema.notification.failure": "Error",
   "admin.registries.schema.notification.failure": "Erro",
 
   // "admin.registries.schema.notification.field.created": "Successfully created metadata field \"{{field}}\"",
-  "admin.registries.schema.notification.field.created": 'Criou o campo de metadado "{{field}}" com sucesso',
+  "admin.registries.schema.notification.field.created": "Criou o campo de metadado \"{{field}}\" com sucesso",
 
   // "admin.registries.schema.notification.field.deleted.failure": "Failed to delete {{amount}} metadata fields",
   "admin.registries.schema.notification.field.deleted.failure": "Falhou ao apagar {{amount}} campo(s) de metadados",
@@ -476,7 +519,7 @@
   "admin.registries.schema.notification.field.deleted.success": "Apagou {{amount}} campo(s) de metadados com sucesso",
 
   // "admin.registries.schema.notification.field.edited": "Successfully edited metadata field \"{{field}}\"",
-  "admin.registries.schema.notification.field.edited": 'Editou o campo de metadodo "{{field}}" com sucesso',
+  "admin.registries.schema.notification.field.edited": "Editou o campo de metadodo \"{{field}}\" com sucesso",
 
   // "admin.registries.schema.notification.success": "Success",
   "admin.registries.schema.notification.success": "Sucesso",
@@ -484,8 +527,10 @@
   // "admin.registries.schema.return": "Return",
   "admin.registries.schema.return": "Voltar",
 
-  // "admin.registries.schema.title": "Central Metatada RepositoryMetadata Schema Registry",
+  // "admin.registries.schema.title": "DSpace Angular :: Metadata Schema Registry",
   "admin.registries.schema.title": "DSpace :: Registo de Esquema de Metadados",
+
+
 
   // "admin.access-control.epeople.actions.delete": "Delete EPerson",
   "admin.access-control.epeople.actions.delete": "Apagar Utilizador",
@@ -499,7 +544,7 @@
   // "admin.access-control.epeople.actions.stop-impersonating": "Stop impersonating EPerson",
   "admin.access-control.epeople.actions.stop-impersonating": "Deixar de assumir o papel do Utilizador",
 
-  // "admin.access-control.epeople.title": "Central Metatada RepositoryEPeople",
+  // "admin.access-control.epeople.title": "DSpace Angular :: EPeople",
   "admin.access-control.epeople.title": "DSpace :: Utilizador",
 
   // "admin.access-control.epeople.head": "EPeople",
@@ -536,10 +581,10 @@
   "admin.access-control.epeople.table.edit": "Editar",
 
   // "admin.access-control.epeople.table.edit.buttons.edit": "Edit \"{{name}}\"",
-  "admin.access-control.epeople.table.edit.buttons.edit": 'Editar "{{name}}"',
+  "admin.access-control.epeople.table.edit.buttons.edit": "Editar \"{{name}}\"",
 
   // "admin.access-control.epeople.table.edit.buttons.remove": "Delete \"{{name}}\"",
-  "admin.access-control.epeople.table.edit.buttons.remove": 'Apagar "{{name}}"',
+  "admin.access-control.epeople.table.edit.buttons.remove": "Apagar \"{{name}}\"",
 
   // "admin.access-control.epeople.no-items": "No EPeople to show.",
   "admin.access-control.epeople.no-items": "Sem Utilizadores para mostrar.",
@@ -569,28 +614,28 @@
   "admin.access-control.epeople.form.requireCertificate": "Requer certificado",
 
   // "admin.access-control.epeople.form.notification.created.success": "Successfully created EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.created.success": 'Utilizador criado com sucesso "{{name}}"',
+  "admin.access-control.epeople.form.notification.created.success": "Utilizador criado com sucesso \"{{name}}\"",
 
   // "admin.access-control.epeople.form.notification.created.failure": "Failed to create EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.created.failure": 'Falha ao criar o Utilizador "{{name}}"',
+  "admin.access-control.epeople.form.notification.created.failure": "Falha ao criar o Utilizador \"{{name}}\"",
 
   // "admin.access-control.epeople.form.notification.created.failure.emailInUse": "Failed to create EPerson \"{{name}}\", email \"{{email}}\" already in use.",
-  "admin.access-control.epeople.form.notification.created.failure.emailInUse": 'Falha ao criar o Utilizador "{{name}}", o email "{{email}}" já está registado no repositório.',
+  "admin.access-control.epeople.form.notification.created.failure.emailInUse": "Falha ao criar o Utilizador \"{{name}}\", o email \"{{email}}\" já está registado no repositório.",
 
   // "admin.access-control.epeople.form.notification.edited.failure.emailInUse": "Failed to edit EPerson \"{{name}}\", email \"{{email}}\" already in use.",
-  "admin.access-control.epeople.form.notification.edited.failure.emailInUse": 'Falha ao editar o Utilizador "{{name}}", o email "{{email}}" já está registado no repositório.',
+  "admin.access-control.epeople.form.notification.edited.failure.emailInUse": "Falha ao editar o Utilizador \"{{name}}\", o email \"{{email}}\" já está registado no repositório.",
 
   // "admin.access-control.epeople.form.notification.edited.success": "Successfully edited EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.edited.success": 'Utilizador editado com successo "{{name}}"',
+  "admin.access-control.epeople.form.notification.edited.success": "Utilizador editado com successo \"{{name}}\"",
 
   // "admin.access-control.epeople.form.notification.edited.failure": "Failed to edit EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.edited.failure": 'Falha ao editor Utilizador "{{name}}"',
+  "admin.access-control.epeople.form.notification.edited.failure": "Falha ao editor Utilizador \"{{name}}\"",
 
   // "admin.access-control.epeople.form.notification.deleted.success": "Successfully deleted EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.deleted.success": 'Utilizador apagado com sucesso "{{name}}"',
+  "admin.access-control.epeople.form.notification.deleted.success": "Utilizador apagado com sucesso \"{{name}}\"",
 
   // "admin.access-control.epeople.form.notification.deleted.failure": "Failed to delete EPerson \"{{name}}\"",
-  "admin.access-control.epeople.form.notification.deleted.failure": 'Falha ao apagar Utilizador "{{name}}"',
+  "admin.access-control.epeople.form.notification.deleted.failure": "Falha ao apagar Utilizador \"{{name}}\"",
 
   // "admin.access-control.epeople.form.groupsEPersonIsMemberOf": "Member of these groups:",
   "admin.access-control.epeople.form.groupsEPersonIsMemberOf": "Membro dos grupos:",
@@ -608,18 +653,20 @@
   "admin.access-control.epeople.form.goToGroups": "Adicionar a grupos",
 
   // "admin.access-control.epeople.notification.deleted.failure": "Failed to delete EPerson: \"{{name}}\"",
-  "admin.access-control.epeople.notification.deleted.failure": 'Falha ao apagar Utilizador: "{{name}}"',
+  "admin.access-control.epeople.notification.deleted.failure": "Falha ao apagar Utilizador: \"{{name}}\"",
 
   // "admin.access-control.epeople.notification.deleted.success": "Successfully deleted EPerson: \"{{name}}\"",
-  "admin.access-control.epeople.notification.deleted.success": 'Utilizador apagado com sucesso: "{{name}}"',
+  "admin.access-control.epeople.notification.deleted.success": "Utilizador apagado com sucesso: \"{{name}}\"",
 
-  // "admin.access-control.groups.title": "Central Metatada RepositoryGroups",
+
+
+  // "admin.access-control.groups.title": "DSpace Angular :: Groups",
   "admin.access-control.groups.title": "DSpace :: Grupos",
 
-  // "admin.access-control.groups.title.singleGroup": "Central Metatada RepositoryEdit Group",
+  // "admin.access-control.groups.title.singleGroup": "DSpace Angular :: Edit Group",
   "admin.access-control.groups.title.singleGroup": "DSpace :: Editar Grupo",
 
-  // "admin.access-control.groups.title.addGroup": "Central Metatada RepositoryNew Group",
+  // "admin.access-control.groups.title.addGroup": "DSpace Angular :: New Group",
   "admin.access-control.groups.title.addGroup": "DSpace :: Novo Grupo",
 
   // "admin.access-control.groups.head": "Groups",
@@ -650,28 +697,30 @@
   "admin.access-control.groups.table.edit": "Editar",
 
   // "admin.access-control.groups.table.edit.buttons.edit": "Edit \"{{name}}\"",
-  "admin.access-control.groups.table.edit.buttons.edit": 'Editar "{{name}}"',
+  "admin.access-control.groups.table.edit.buttons.edit": "Editar \"{{name}}\"",
 
   // "admin.access-control.groups.table.edit.buttons.remove": "Delete \"{{name}}\"",
-  "admin.access-control.groups.table.edit.buttons.remove": 'Apagar "{{name}}"',
+  "admin.access-control.groups.table.edit.buttons.remove": "Apagar \"{{name}}\"",
 
   // "admin.access-control.groups.no-items": "No groups found with this in their name or this as UUID",
   "admin.access-control.groups.no-items": "Não foram encontrados grupos através do nome ou o UUID",
 
   // "admin.access-control.groups.notification.deleted.success": "Successfully deleted group \"{{name}}\"",
-  "admin.access-control.groups.notification.deleted.success": 'Grupo apagado com sucesso "{{name}}"',
+  "admin.access-control.groups.notification.deleted.success": "Grupo apagado com sucesso \"{{name}}\"",
 
   // "admin.access-control.groups.notification.deleted.failure.title": "Failed to delete group \"{{name}}\"",
-  "admin.access-control.groups.notification.deleted.failure.title": 'Falha ao apagar grupo "{{name}}"',
+  "admin.access-control.groups.notification.deleted.failure.title": "Falha ao apagar grupo \"{{name}}\"",
 
   // "admin.access-control.groups.notification.deleted.failure.content": "Cause: \"{{cause}}\"",
-  "admin.access-control.groups.notification.deleted.failure.content": 'Causa: "{{cause}}"',
+  "admin.access-control.groups.notification.deleted.failure.content": "Causa: \"{{cause}}\"",
+
+
 
   // "admin.access-control.groups.form.alert.permanent": "This group is permanent, so it can't be edited or deleted. You can still add and remove group members using this page.",
   "admin.access-control.groups.form.alert.permanent": "Este grupo é permanente, não pode ser editado ou apagado. Pode adicionar ou remover membros do grupo nesta página.",
 
   // "admin.access-control.groups.form.alert.workflowGroup": "This group can’t be modified or deleted because it corresponds to a role in the submission and workflow process in the \"{{name}}\" {{comcol}}. You can delete it from the <a href='{{comcolEditRolesRoute}}'>\"assign roles\"</a> tab on the edit {{comcol}} page. You can still add and remove group members using this page.",
-  "admin.access-control.groups.form.alert.workflowGroup": 'Este grupo não pode ser editado ou apagado porque corresponde a um papel no workflow de submissão em "{{name}}" {{comcol}}. Pode apagá-lo na aba <a href=\'{{comcolEditRolesRoute}}\'>"Atribuir Papéis"</a> na edição da página {{comcol}}. Pode adicionar ou remover membros nesta página.',
+  "admin.access-control.groups.form.alert.workflowGroup": "Este grupo não pode ser editado ou apagado porque corresponde a um papel no workflow de submissão em \"{{name}}\" {{comcol}}. Pode apagá-lo na aba <a href='{{comcolEditRolesRoute}}'>\"Atribuir Papéis\"</a> na edição da página {{comcol}}. Pode adicionar ou remover membros nesta página.",
 
   // "admin.access-control.groups.form.head.create": "Create group",
   "admin.access-control.groups.form.head.create": "Criar grupo",
@@ -686,31 +735,31 @@
   "admin.access-control.groups.form.groupDescription": "Descrição",
 
   // "admin.access-control.groups.form.notification.created.success": "Successfully created Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.created.success": 'Grupo criado com sucesso "{{name}}"',
+  "admin.access-control.groups.form.notification.created.success": "Grupo criado com sucesso \"{{name}}\"",
 
   // "admin.access-control.groups.form.notification.created.failure": "Failed to create Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.created.failure": 'Falha ao criar grupo "{{name}}"',
+  "admin.access-control.groups.form.notification.created.failure": "Falha ao criar grupo \"{{name}}\"",
 
   // "admin.access-control.groups.form.notification.created.failure.groupNameInUse": "Failed to create Group with name: \"{{name}}\", make sure the name is not already in use.",
-  "admin.access-control.groups.form.notification.created.failure.groupNameInUse": 'Falha ao criar o grupo com o nome: "{{name}}", verifique se o nome do grupo já está a ser utilizado.',
+  "admin.access-control.groups.form.notification.created.failure.groupNameInUse": "Falha ao criar o grupo com o nome: \"{{name}}\", verifique se o nome do grupo já está a ser utilizado.",
 
   // "admin.access-control.groups.form.notification.edited.failure": "Failed to edit Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.edited.failure": 'Falha ao editar grupo "{{name}}"',
+  "admin.access-control.groups.form.notification.edited.failure": "Falha ao editar grupo \"{{name}}\"",
 
   // "admin.access-control.groups.form.notification.edited.failure.groupNameInUse": "Name \"{{name}}\" already in use!",
-  "admin.access-control.groups.form.notification.edited.failure.groupNameInUse": 'Nome "{{name}}" já utilizado!',
+  "admin.access-control.groups.form.notification.edited.failure.groupNameInUse": "Nome \"{{name}}\" já utilizado!",
 
   // "admin.access-control.groups.form.notification.edited.success": "Successfully edited Group \"{{name}}\"",
-  "admin.access-control.groups.form.notification.edited.success": 'Grupo editado com sucesso "{{name}}"',
+  "admin.access-control.groups.form.notification.edited.success": "Grupo editado com sucesso \"{{name}}\"",
 
   // "admin.access-control.groups.form.actions.delete": "Delete Group",
   "admin.access-control.groups.form.actions.delete": "Apagar grupo",
 
   // "admin.access-control.groups.form.delete-group.modal.header": "Delete Group \"{{ dsoName }}\"",
-  "admin.access-control.groups.form.delete-group.modal.header": 'Apagar grupo "{{ dsoName }}"',
+  "admin.access-control.groups.form.delete-group.modal.header": "Apagar grupo \"{{ dsoName }}\"",
 
   // "admin.access-control.groups.form.delete-group.modal.info": "Are you sure you want to delete Group \"{{ dsoName }}\"",
-  "admin.access-control.groups.form.delete-group.modal.info": 'Pretende mesmo apagar o grupo "{{ dsoName }}"',
+  "admin.access-control.groups.form.delete-group.modal.info": "Pretende mesmo apagar o grupo \"{{ dsoName }}\"",
 
   // "admin.access-control.groups.form.delete-group.modal.cancel": "Cancel",
   "admin.access-control.groups.form.delete-group.modal.cancel": "Cancelar",
@@ -719,13 +768,13 @@
   "admin.access-control.groups.form.delete-group.modal.confirm": "Apagar",
 
   // "admin.access-control.groups.form.notification.deleted.success": "Successfully deleted group \"{{ name }}\"",
-  "admin.access-control.groups.form.notification.deleted.success": 'Grupo apagado com sucesso "{{ name }}"',
+  "admin.access-control.groups.form.notification.deleted.success": "Grupo apagado com sucesso \"{{ name }}\"",
 
   // "admin.access-control.groups.form.notification.deleted.failure.title": "Failed to delete group \"{{ name }}\"",
-  "admin.access-control.groups.form.notification.deleted.failure.title": 'Falha ao apagar grupo "{{ name }}"',
+  "admin.access-control.groups.form.notification.deleted.failure.title": "Falha ao apagar grupo \"{{ name }}\"",
 
   // "admin.access-control.groups.form.notification.deleted.failure.content": "Cause: \"{{ cause }}\"",
-  "admin.access-control.groups.form.notification.deleted.failure.content": 'Causa: "{{ cause }}"',
+  "admin.access-control.groups.form.notification.deleted.failure.content": "Causa: \"{{ cause }}\"",
 
   // "admin.access-control.groups.form.members-list.head": "EPeople",
   "admin.access-control.groups.form.members-list.head": "Utilizador",
@@ -758,22 +807,22 @@
   "admin.access-control.groups.form.members-list.table.edit": "Remover / Adicionar",
 
   // "admin.access-control.groups.form.members-list.table.edit.buttons.remove": "Remove member with name \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.table.edit.buttons.remove": 'Remover o membro com nome "{{name}}"',
+  "admin.access-control.groups.form.members-list.table.edit.buttons.remove": "Remover o membro com nome \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.notification.success.addMember": "Successfully added member: \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.notification.success.addMember": 'Membro adicionado com sucesso: "{{name}}"',
+  "admin.access-control.groups.form.members-list.notification.success.addMember": "Membro adicionado com sucesso: \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.notification.failure.addMember": "Failed to add member: \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.notification.failure.addMember": 'Falha ao adicionar membro: "{{name}}"',
+  "admin.access-control.groups.form.members-list.notification.failure.addMember": "Falha ao adicionar membro: \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.notification.success.deleteMember": "Successfully deleted member: \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.notification.success.deleteMember": 'Membro apagado com sucesso: "{{name}}"',
+  "admin.access-control.groups.form.members-list.notification.success.deleteMember": "Membro apagado com sucesso: \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.notification.failure.deleteMember": "Failed to delete member: \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.notification.failure.deleteMember": 'Falha ao apagar membro: "{{name}}"',
+  "admin.access-control.groups.form.members-list.notification.failure.deleteMember": "Falha ao apagar membro: \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.table.edit.buttons.add": "Add member with name \"{{name}}\"",
-  "admin.access-control.groups.form.members-list.table.edit.buttons.add": 'Adicionar membro com o nome "{{name}}"',
+  "admin.access-control.groups.form.members-list.table.edit.buttons.add": "Adicionar membro com o nome \"{{name}}\"",
 
   // "admin.access-control.groups.form.members-list.notification.failure.noActiveGroup": "No current active group, submit a name first.",
   "admin.access-control.groups.form.members-list.notification.failure.noActiveGroup": "Sem grupos ativos, indique um nome primeiro.",
@@ -785,7 +834,7 @@
   "admin.access-control.groups.form.members-list.no-items": "Não foram encontrados Utilizadores nesta pesquisa",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure": "Something went wrong: \"{{cause}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.failure": 'Algo correu mal: "{{cause}}"',
+  "admin.access-control.groups.form.subgroups-list.notification.failure": "Algo correu mal: \"{{cause}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.head": "Groups",
   "admin.access-control.groups.form.subgroups-list.head": "Grupos",
@@ -812,25 +861,25 @@
   "admin.access-control.groups.form.subgroups-list.table.edit": "Remover / Adicionar",
 
   // "admin.access-control.groups.form.subgroups-list.table.edit.buttons.remove": "Remove subgroup with name \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.table.edit.buttons.remove": 'Remover subgrupo com o nome "{{name}}"',
+  "admin.access-control.groups.form.subgroups-list.table.edit.buttons.remove": "Remover subgrupo com o nome \"{{name}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.table.edit.buttons.add": "Add subgroup with name \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.table.edit.buttons.add": 'Adicionar subgrupo com o nome "{{name}}"',
+  "admin.access-control.groups.form.subgroups-list.table.edit.buttons.add": "Adicionar subgrupo com o nome \"{{name}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.table.edit.currentGroup": "Current group",
   "admin.access-control.groups.form.subgroups-list.table.edit.currentGroup": "Grupo atual",
 
   // "admin.access-control.groups.form.subgroups-list.notification.success.addSubgroup": "Successfully added subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.success.addSubgroup": 'Subgrupo adicionado com sucesso: "{{name}}"',
+  "admin.access-control.groups.form.subgroups-list.notification.success.addSubgroup": "Subgrupo adicionado com sucesso: \"{{name}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": "Failed to add subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": 'Falha ao adicionar subgrupo: "{{name}}"',
+  "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": "Falha ao adicionar subgrupo: \"{{name}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Successfully deleted subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": 'Subgrupo apagado com sucesso: "{{name}}"',
+  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Subgrupo apagado com sucesso: \"{{name}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": "Failed to delete subgroup: \"{{name}}\"",
-  "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": 'Falha ao apagar subgrupo: "{{name}}"',
+  "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": "Falha ao apagar subgrupo: \"{{name}}\"",
 
   // "admin.access-control.groups.form.subgroups-list.notification.failure.noActiveGroup": "No current active group, submit a name first.",
   "admin.access-control.groups.form.subgroups-list.notification.failure.noActiveGroup": "Sem grupo ativo, indique um nome primeiro.",
@@ -846,6 +895,8 @@
 
   // "admin.access-control.groups.form.return": "Return to groups",
   "admin.access-control.groups.form.return": "Retornar aos grupos",
+
+
 
   // "admin.search.breadcrumbs": "Administrative Search",
   "admin.search.breadcrumbs": "Pesquisa administrativa",
@@ -883,6 +934,9 @@
   // "administrativeView.search.results.head": "Administrative Search",
   "administrativeView.search.results.head": "Pesquisa Administrativa",
 
+
+
+
   // "admin.workflow.breadcrumbs": "Administer Workflow",
   "admin.workflow.breadcrumbs": "Gestão do Workflow",
 
@@ -897,6 +951,8 @@
 
   // "admin.workflow.item.send-back": "Send back",
   "admin.workflow.item.send-back": "Devolver",
+
+
 
   // "admin.metadata-import.breadcrumbs": "Import Metadata",
   "admin.metadata-import.breadcrumbs": "Importação de Metadados",
@@ -925,17 +981,22 @@
   // "admin.metadata-import.page.error.addFile": "Select file first!",
   "admin.metadata-import.page.error.addFile": "Selecione um ficheiro!",
 
+
+
+
   // "auth.errors.invalid-user": "Invalid email address or password.",
   "auth.errors.invalid-user": "Endereço de email ou palavra-chave inválidos.",
 
   // "auth.messages.expired": "Your session has expired. Please log in again.",
   "auth.messages.expired": "Sua sessão expirou. Por favor entre novamente.",
 
+
+
   // "bitstream.edit.bitstream": "Bitstream: ",
   "bitstream.edit.bitstream": "Ficheiros: ",
 
   // "bitstream.edit.form.description.hint": "Optionally, provide a brief description of the file, for example \"<i>Main article</i>\" or \"<i>Experiment data readings</i>\".",
-  "bitstream.edit.form.description.hint": 'Opcionalmente, pode indicar uma breve descrição do ficheiro, por exemplo "<i>Texto Principal</i>" ou "<i>Dados da experiência</i>".',
+  "bitstream.edit.form.description.hint": "Opcionalmente, pode indicar uma breve descrição do ficheiro, por exemplo \"<i>Texto Principal</i>\" ou \"<i>Dados da experiência</i>\".",
 
   // "bitstream.edit.form.description.label": "Description",
   "bitstream.edit.form.description.label": "Descrição",
@@ -956,13 +1017,13 @@
   "bitstream.edit.form.newFormat.label": "Descreva o novo formato",
 
   // "bitstream.edit.form.newFormat.hint": "The application you used to create the file, and the version number (for example, \"<i>ACMESoft SuperApp version 1.5</i>\").",
-  "bitstream.edit.form.newFormat.hint": 'A aplicação usada para criar o ficheiro e a respetiva versão (por exemplo, "<i>ACMESoft SuperApp versão 1.5</i>").',
+  "bitstream.edit.form.newFormat.hint": "A aplicação usada para criar o ficheiro e a respetiva versão (por exemplo, \"<i>ACMESoft SuperApp versão 1.5</i>\").",
 
   // "bitstream.edit.form.primaryBitstream.label": "Primary bitstream",
   "bitstream.edit.form.primaryBitstream.label": "Ficheiro primário",
 
   // "bitstream.edit.form.selectedFormat.hint": "If the format is not in the above list, <b>select \"format not in list\" above</b> and describe it under \"Describe new format\".",
-  "bitstream.edit.form.selectedFormat.hint": 'Se o formato não está na lista abaixo, <b>escolha "Formato não está na lista" </b> e desreva-o em "Descreva o novo formato".',
+  "bitstream.edit.form.selectedFormat.hint": "Se o formato não está na lista abaixo, <b>escolha \"Formato não está na lista\" </b> e desreva-o em \"Descreva o novo formato\".",
 
   // "bitstream.edit.form.selectedFormat.label": "Selected Format",
   "bitstream.edit.form.selectedFormat.label": "Formato Selecionado",
@@ -981,6 +1042,8 @@
 
   // "bitstream.edit.title": "Edit bitstream",
   "bitstream.edit.title": "Editar ficheiro",
+
+
 
   // "browse.comcol.by.author": "By Author",
   "browse.comcol.by.author": "Por Autor",
@@ -1084,8 +1147,11 @@
   // "browse.title": "Browsing {{ collection }} by {{ field }} {{ value }}",
   "browse.title": "Percorrer {{ collection }} por {{ field }} {{ value }}",
 
+
   // "chips.remove": "Remove chip",
   "chips.remove": "Remover chip",
+
+
 
   // "collection.create.head": "Create a Collection",
   "collection.create.head": "Criar uma coleção",
@@ -1115,7 +1181,9 @@
   "collection.delete.notification.success": "Apagou a coleção com sucesso",
 
   // "collection.delete.text": "Are you sure you want to delete collection \"{{ dso }}\"",
-  "collection.delete.text": 'Você tem certeza que deseja apagar a coleção "{{ dso }}?"',
+  "collection.delete.text": "Você tem certeza que deseja apagar a coleção \"{{ dso }}?\"",
+
+
 
   // "collection.edit.delete": "Delete this collection",
   "collection.edit.delete": "Apagar esta coleção",
@@ -1125,6 +1193,8 @@
 
   // "collection.edit.breadcrumbs": "Edit Collection",
   "collection.edit.breadcrumbs": "Editar Coleção",
+
+
 
   // "collection.edit.tabs.mapper.head": "Item Mapper",
   "collection.edit.tabs.mapper.head": "Mapeamentos",
@@ -1136,7 +1206,7 @@
   "collection.edit.item-mapper.cancel": "Cancelar",
 
   // "collection.edit.item-mapper.collection": "Collection: \"<b>{{name}}</b>\"",
-  "collection.edit.item-mapper.collection": 'Coleção: "<b>{{name}}</b>"',
+  "collection.edit.item-mapper.collection": "Coleção: \"<b>{{name}}</b>\"",
 
   // "collection.edit.item-mapper.confirm": "Map selected items",
   "collection.edit.item-mapper.confirm": "Mapear itens selecionados",
@@ -1183,6 +1253,8 @@
   // "collection.edit.item-mapper.tabs.map": "Map new items",
   "collection.edit.item-mapper.tabs.map": "Mapear novos itens",
 
+
+
   // "collection.edit.logo.label": "Collection logo",
   "collection.edit.logo.label": "Logotipo da Coleção",
 
@@ -1204,11 +1276,15 @@
   // "collection.edit.logo.upload": "Drop a Collection Logo to upload",
   "collection.edit.logo.upload": "Arraste um logotipo da coleção para carregar",
 
+
+
   // "collection.edit.notifications.success": "Successfully edited the Collection",
   "collection.edit.notifications.success": "Coleção editada com sucesso",
 
   // "collection.edit.return": "Return",
   "collection.edit.return": "Voltar",
+
+
 
   // "collection.edit.tabs.curate.head": "Curate",
   "collection.edit.tabs.curate.head": "Curadoria",
@@ -1288,6 +1364,8 @@
   // "collection.edit.tabs.source.title": "Collection Edit - Content Source",
   "collection.edit.tabs.source.title": "Editar Coleção - Conteúdo fonte",
 
+
+
   // "collection.edit.template.add-button": "Add",
   "collection.edit.template.add-button": "Adicionar",
 
@@ -1304,7 +1382,7 @@
   "collection.edit.template.edit-button": "Editar",
 
   // "collection.edit.template.head": "Edit Template Item for Collection \"{{ collection }}\"",
-  "collection.edit.template.head": 'Editar Modelo do Item para a Coleção "{{ collection }}"',
+  "collection.edit.template.head": "Editar Modelo do Item para a Coleção \"{{ collection }}\"",
 
   // "collection.edit.template.label": "Template item",
   "collection.edit.template.label": "Modelo do item",
@@ -1317,6 +1395,8 @@
 
   // "collection.edit.template.title": "Edit Template Item",
   "collection.edit.template.title": "Editar Modelo do Item",
+
+
 
   // "collection.form.abstract": "Short Description",
   "collection.form.abstract": "Descrição curta",
@@ -1342,8 +1422,12 @@
   // "collection.form.title": "Name",
   "collection.form.title": "Nome",
 
+
+
   // "collection.listelement.badge": "Collection",
   "collection.listelement.badge": "Coleção",
+
+
 
   // "collection.page.browse.recent.head": "Recent Submissions",
   "collection.page.browse.recent.head": "Submissões Recentes",
@@ -1363,6 +1447,8 @@
   // "collection.page.news": "News",
   "collection.page.news": "Notícias",
 
+
+
   // "collection.select.confirm": "Confirm selected",
   "collection.select.confirm": "Confirmar seleção",
 
@@ -1372,11 +1458,15 @@
   // "collection.select.table.title": "Title",
   "collection.select.table.title": "Título",
 
+
+
   // "collection.source.update.notifications.error.content": "The provided settings have been tested and didn't work.",
   "collection.source.update.notifications.error.content": "As configurações providenciadas foram testadas mas não funcionam.",
 
   // "collection.source.update.notifications.error.title": "Server Error",
   "collection.source.update.notifications.error.title": "Erro no Servidor",
+
+
 
   // "communityList.tabTitle": "DSpace - Community List",
   "communityList.tabTitle": "DSpace - Lista de Comunidades",
@@ -1386,6 +1476,8 @@
 
   // "communityList.showMore": "Show More",
   "communityList.showMore": "Mostrar Mais",
+
+
 
   // "community.create.head": "Create a Community",
   "community.create.head": "Criar uma comunidade",
@@ -1415,7 +1507,7 @@
   "community.delete.notification.success": "Comunidade apagada com sucesso",
 
   // "community.delete.text": "Are you sure you want to delete community \"{{ dso }}\"",
-  "community.delete.text": 'Você tem certeza que quer apagar a comunidade "{{ dso }}"?',
+  "community.delete.text": "Você tem certeza que quer apagar a comunidade \"{{ dso }}\"?",
 
   // "community.edit.delete": "Delete this community",
   "community.edit.delete": "Apagar esta comunidade",
@@ -1447,6 +1539,8 @@
   // "community.edit.logo.upload": "Drop a Community Logo to upload",
   "community.edit.logo.upload": "Arraste um logotipo da comunidade para carregar",
 
+
+
   // "community.edit.notifications.success": "Successfully edited the Community",
   "community.edit.notifications.success": "Comunidade editada com sucesso",
 
@@ -1458,6 +1552,8 @@
 
   // "community.edit.return": "Return",
   "community.edit.return": "Voltar",
+
+
 
   // "community.edit.tabs.curate.head": "Curate",
   "community.edit.tabs.curate.head": "Curadoria",
@@ -1483,8 +1579,12 @@
   // "community.edit.tabs.authorizations.title": "Community Edit - Authorizations",
   "community.edit.tabs.authorizations.title": "Editar Comunidade - Autorizações",
 
+
+
   // "community.listelement.badge": "Community",
   "community.listelement.badge": "Comunidade",
+
+
 
   // "comcol-role.edit.no-group": "None",
   "comcol-role.edit.no-group": "Nenhum",
@@ -1552,6 +1652,8 @@
   // "comcol-role.edit.reviewer.description": "Reviewers are able to accept or reject incoming submissions. However, they are not able to edit the submission's metadata.",
   "comcol-role.edit.reviewer.description": "Os Revisores podem aceitar ou rejeitar as submissões enviadas. Contudo, não podem editar os metadados das submissões.",
 
+
+
   // "community.form.abstract": "Short Description",
   "community.form.abstract": "Descrição curta",
 
@@ -1590,6 +1692,8 @@
 
   // "community.sub-community-list.head": "Communities of this Community",
   "community.sub-community-list.head": "Comunidades desta Comunidade",
+
+
 
   // "cookies.consent.accept-all": "Accept all",
   "cookies.consent.accept-all": "Aceitar todos",
@@ -1639,6 +1743,8 @@
   // "cookies.consent.content-modal.title": "Information that we collect",
   "cookies.consent.content-modal.title": "Informação que coletamos",
 
+
+
   // "cookies.consent.app.title.authentication": "Authentication",
   "cookies.consent.app.title.authentication": "Autenticação",
 
@@ -1651,17 +1757,23 @@
   // "cookies.consent.app.description.preferences": "Required for saving your preferences",
   "cookies.consent.app.description.preferences": "Obrigatório para guardar as suas preferências",
 
+
+
   // "cookies.consent.app.title.acknowledgement": "Acknowledgement",
   "cookies.consent.app.title.acknowledgement": "Termos de Uso",
 
   // "cookies.consent.app.description.acknowledgement": "Required for saving your acknowledgements and consents",
   "cookies.consent.app.description.acknowledgement": "Requerido para guardar os Termos de uso e Consentimento",
 
+
+
   // "cookies.consent.app.title.google-analytics": "Google Analytics",
   "cookies.consent.app.title.google-analytics": "Google Analytics",
 
   // "cookies.consent.app.description.google-analytics": "Allows us to track statistical data",
   "cookies.consent.app.description.google-analytics": "Permite-nos rastrear dados estatísticos",
+
+
 
   // "cookies.consent.purpose.functional": "Functional",
   "cookies.consent.purpose.functional": "Funcional",
@@ -1687,6 +1799,8 @@
   // "curation-task.task.vscan.label": "Virus Scan",
   "curation-task.task.vscan.label": "Scan de Vírus",
 
+
+
   // "curation.form.task-select.label": "Task:",
   "curation.form.task-select.label": "Tarefa:",
 
@@ -1710,6 +1824,8 @@
 
   // "curation.form.handle.hint": "Hint: Enter [your-handle-prefix]/0 to run a task across entire site (not all tasks may support this capability)",
   "curation.form.handle.hint": "Dica: Introduza [o-seu-prefixo-handle]/0 para executar a tarefa em todo o repositório (nem todas as tarefas são compatíveis com esta opção)",
+
+
 
   // "dso-selector.create.collection.head": "New collection",
   "dso-selector.create.collection.head": "Nova coleção",
@@ -1753,6 +1869,8 @@
   // "dso-selector.placeholder": "Search for a {{ type }}",
   "dso-selector.placeholder": "Pesquisar por um(a) {{ type }}",
 
+
+
   // "confirmation-modal.export-metadata.header": "Export metadata for {{ dsoName }}",
   "confirmation-modal.export-metadata.header": "Exportar metadados para {{ dsoName }}",
 
@@ -1766,10 +1884,10 @@
   "confirmation-modal.export-metadata.confirm": "Exportar",
 
   // "confirmation-modal.delete-eperson.header": "Delete EPerson \"{{ dsoName }}\"",
-  "confirmation-modal.delete-eperson.header": 'Apagar Utilizador "{{ dsoName }}"',
+  "confirmation-modal.delete-eperson.header": "Apagar Utilizador \"{{ dsoName }}\"",
 
   // "confirmation-modal.delete-eperson.info": "Are you sure you want to delete EPerson \"{{ dsoName }}\"",
-  "confirmation-modal.delete-eperson.info": 'Pretende apagar o utilizar "{{ dsoName }}"',
+  "confirmation-modal.delete-eperson.info": "Pretende apagar o utilizar \"{{ dsoName }}\"",
 
   // "confirmation-modal.delete-eperson.cancel": "Cancel",
   "confirmation-modal.delete-eperson.cancel": "Cancelar",
@@ -1834,8 +1952,12 @@
   // "error.validation.filerequired": "The file upload is mandatory",
   "error.validation.filerequired": "O carregamento de ficheiros é obrigatório",
 
+
+
   // "file-section.error.header": "Error obtaining files for this item",
   "file-section.error.header": "Erro ao obter ficheiros para este item",
+
+
 
   // "footer.copyright": "copyright © 2002-{{ year }}",
   "footer.copyright": "copyright © 2002-{{ year }}",
@@ -1854,6 +1976,8 @@
 
   // "footer.link.end-user-agreement":"End User Agreement",
   "footer.link.end-user-agreement": "Termos de uso",
+
+
 
   // "forgot-email.form.header": "Forgot Password",
   "forgot-email.form.header": "Esqueci a palavra-chave",
@@ -1887,6 +2011,8 @@
 
   // "forgot-email.form.error.content": "An error occured when registering the following email address: {{ email }}",
   "forgot-email.form.error.content": "Ocorreu um erro ao tentar registar o seguinte endereço de correio eletrónico: {{ email }}",
+
+
 
   // "forgot-password.title": "Forgot Password",
   "forgot-password.title": "Esqueci a palavra-chave",
@@ -1932,6 +2058,8 @@
 
   // "forgot-password.form.submit": "Submit password",
   "forgot-password.form.submit": "Enviar palavra-chave",
+
+
 
   // "form.add": "Add",
   "form.add": "Adicionar",
@@ -2008,13 +2136,15 @@
   // "form.submit": "Submit",
   "form.submit": "Guardar",
 
+
+
   // "home.description": "",
   "home.description": "",
 
   // "home.breadcrumbs": "Home",
   "home.breadcrumbs": "Principal",
 
-  // "home.title": "Central Metatada RepositoryHome",
+  // "home.title": "DSpace Angular :: Home",
   "home.title": "DSpace :: Início",
 
   // "home.top-level-communities.head": "Communities in DSpace",
@@ -2056,11 +2186,15 @@
   // "info.privacy.title": "Privacy Statement",
   "info.privacy.title": "Política de Privacidade",
 
+
+
   // "item.alerts.private": "This item is private",
   "item.alerts.private": "Este item é privado",
 
   // "item.alerts.withdrawn": "This item has been withdrawn",
   "item.alerts.withdrawn": "Este item foi retirado",
+
+
 
   // "item.edit.authorizations.heading": "With this editor you can view and alter the policies of an item, plus alter policies of individual item components: bundles and bitstreams. Briefly, an item is a container of bundles, and bundles are containers of bitstreams. Containers usually have ADD/REMOVE/READ/WRITE policies, while bitstreams only have READ/WRITE policies.",
   "item.edit.authorizations.heading": "Com este editor pode ver e alterar as políticas de um item, assim como alterar políticas de componentes individuais do item: pacotes e ficheiros. Em resumo, um item contém pacotes, e os pacotes contêm de ficheiros. Os pacotes possuem usualmente políticas de ADICIONAR/REMOVER/LER/ESCREVER enquanto que os ficheiros apenas políticas de LER/ESCREVER.",
@@ -2068,11 +2202,15 @@
   // "item.edit.authorizations.title": "Edit item's Policies",
   "item.edit.authorizations.title": "Editar políticas dos itens",
 
+
+
   // "item.badge.private": "Private",
   "item.badge.private": "Privado",
 
   // "item.badge.withdrawn": "Withdrawn",
   "item.badge.withdrawn": "Retirado",
+
+
 
   // "item.bitstreams.upload.bundle": "Bundle",
   "item.bitstreams.upload.bundle": "Pacote",
@@ -2083,7 +2221,7 @@
   // "item.bitstreams.upload.bundle.new": "Create bundle",
   "item.bitstreams.upload.bundle.new": "Criar um pacote",
 
-  // "item.bitstreams.upload.bundles.empty": "This item doesn\'t contain any bundles to upload a bitstream to.",
+  // "item.bitstreams.upload.bundles.empty": "This item doesn't contain any bundles to upload a bitstream to.",
   "item.bitstreams.upload.bundles.empty": "Este item não possui um pacote para poder receber os ficheiros.",
 
   // "item.bitstreams.upload.cancel": "Cancel",
@@ -2106,6 +2244,8 @@
 
   // "item.bitstreams.upload.title": "Upload bitstream",
   "item.bitstreams.upload.title": "Carregar ficheiro",
+
+
 
   // "item.edit.bitstreams.bundle.edit.buttons.upload": "Upload",
   "item.edit.bitstreams.bundle.edit.buttons.upload": "Carregar",
@@ -2197,6 +2337,8 @@
   // "item.edit.bitstreams.upload-button": "Upload",
   "item.edit.bitstreams.upload-button": "Carregar",
 
+
+
   // "item.edit.delete.cancel": "Cancel",
   "item.edit.delete.cancel": "Cancelar",
 
@@ -2243,7 +2385,7 @@
   "item.edit.item-mapper.head": "Mapeador de Item - Mapear Itens em Coleções",
 
   // "item.edit.item-mapper.item": "Item: \"<b>{{name}}</b>\"",
-  "item.edit.item-mapper.item": 'Item: "<b>{{name}}</b>"',
+  "item.edit.item-mapper.item": "Item: \"<b>{{name}}</b>\"",
 
   // "item.edit.item-mapper.no-search": "Please enter a query to search",
   "item.edit.item-mapper.no-search": "Insira um termo para efetuar a pesquisa",
@@ -2277,6 +2419,8 @@
 
   // "item.edit.item-mapper.tabs.map": "Map new collections",
   "item.edit.item-mapper.tabs.map": "Mapear novas coleções",
+
+
 
   // "item.edit.metadata.add-button": "Add",
   "item.edit.metadata.add-button": "Adicionar",
@@ -2347,6 +2491,8 @@
   // "item.edit.metadata.save-button": "Save",
   "item.edit.metadata.save-button": "Salvar",
 
+
+
   // "item.edit.modify.overview.field": "Field",
   "item.edit.modify.overview.field": "Campo",
 
@@ -2355,6 +2501,8 @@
 
   // "item.edit.modify.overview.value": "Value",
   "item.edit.modify.overview.value": "Valor",
+
+
 
   // "item.edit.move.cancel": "Cancel",
   "item.edit.move.cancel": "Cancelar",
@@ -2389,6 +2537,8 @@
   // "item.edit.move.title": "Move item",
   "item.edit.move.title": "Mover item",
 
+
+
   // "item.edit.private.cancel": "Cancel",
   "item.edit.private.cancel": "Cancelar",
 
@@ -2406,6 +2556,8 @@
 
   // "item.edit.private.success": "The item is now private",
   "item.edit.private.success": "O item agora é privado",
+
+
 
   // "item.edit.public.cancel": "Cancel",
   "item.edit.public.cancel": "Cancelar",
@@ -2425,6 +2577,8 @@
   // "item.edit.public.success": "The item is now public",
   "item.edit.public.success": "O item agora é público",
 
+
+
   // "item.edit.reinstate.cancel": "Cancel",
   "item.edit.reinstate.cancel": "Cancelar",
 
@@ -2442,6 +2596,8 @@
 
   // "item.edit.reinstate.success": "The item was reinstated successfully",
   "item.edit.reinstate.success": "O item foi restabelecido com sucesso",
+
+
 
   // "item.edit.relationships.discard-button": "Discard",
   "item.edit.relationships.discard-button": "Descartar",
@@ -2488,6 +2644,8 @@
   // "item.edit.relationships.no-entity-type": "Add 'dspace.entity.type' metadata to enable relationships for this item",
   "item.edit.relationships.no-entity-type": "Adicione o metadado 'dspace.entity.type' para ativar relações neste item",
 
+
+
   // "item.edit.tabs.bitstreams.head": "Bitstreams",
   "item.edit.tabs.bitstreams.head": "Ficheiros do Item",
 
@@ -2530,8 +2688,8 @@
   // "item.edit.tabs.status.buttons.mappedCollections.label": "Manage mapped collections",
   "item.edit.tabs.status.buttons.mappedCollections.label": "Gerenciar coleções mapeadas",
 
-  // "item.edit.tabs.status.buttons.move.button": "Move...",
-  "item.edit.tabs.status.buttons.move.button": "Mover...",
+  // "item.edit.tabs.status.buttons.move.button": "Move this Item to a different Collection",
+  "item.edit.tabs.status.buttons.move.button": "Mova este item para uma coleção diferente",
 
   // "item.edit.tabs.status.buttons.move.label": "Move item to another collection",
   "item.edit.tabs.status.buttons.move.label": "Mover item para outra coleção",
@@ -2554,8 +2712,8 @@
   // "item.edit.tabs.status.buttons.reinstate.label": "Reinstate item into the repository",
   "item.edit.tabs.status.buttons.reinstate.label": "Restabelecer item no repositório",
 
-  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw...",
-  "item.edit.tabs.status.buttons.withdraw.button": "Retirar...",
+  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw this item",
+  "item.edit.tabs.status.buttons.withdraw.button": "retirar este item",
 
   // "item.edit.tabs.status.buttons.withdraw.label": "Withdraw item from the repository",
   "item.edit.tabs.status.buttons.withdraw.label": "Retirar item do repositório",
@@ -2596,6 +2754,8 @@
   // "item.edit.tabs.view.title": "Item Edit -  View",
   "item.edit.tabs.view.title": "Editar Item -  Visualizar",
 
+
+
   // "item.edit.withdraw.cancel": "Cancel",
   "item.edit.withdraw.cancel": "Cancelar",
 
@@ -2614,14 +2774,13 @@
   // "item.edit.withdraw.success": "The item was withdrawn successfully",
   "item.edit.withdraw.success": "O item foi retirado com sucesso",
 
+
+
   // "item.listelement.badge": "Item",
   "item.listelement.badge": "Item",
 
   // "item.page.description": "Description",
   "item.page.description": "Descrição",
-
-  // "item.page.edit": "Edit this item",
-  "item.page.edit": "Editar este item",
 
   // "item.page.journal-issn": "Journal ISSN",
   "item.page.journal-issn": "ISSN da Revista",
@@ -2641,8 +2800,10 @@
   // "item.search.results.head": "Item Search Results",
   "item.search.results.head": "Resultados da Pesquisa de Item",
 
-  // "item.search.title": "Central Metatada RepositoryItem Search",
+  // "item.search.title": "DSpace Angular :: Item Search",
   "item.search.title": "DSpace :: Pesquisa de Item",
+
+
 
   // "item.page.abstract": "Abstract",
   "item.page.abstract": "Resumo",
@@ -2803,8 +2964,12 @@
   // "item.version.history.table.summary": "Summary",
   "item.version.history.table.summary": "Sumário",
 
+
+
   // "item.version.notice": "This is not the latest version of this item. The latest version can be found <a href='{{destination}}'>here</a>.",
   "item.version.notice": "Esta não é a última versão deste item. A última versão pode ser encontrada <a href='{{destination}}'>aqui</a>.",
+
+
 
   // "journal.listelement.badge": "Journal",
   "journal.listelement.badge": "Revista",
@@ -2830,8 +2995,10 @@
   // "journal.search.results.head": "Journal Search Results",
   "journal.search.results.head": "Resultado da Pesquisa de Revistas",
 
-  // "journal.search.title": "Central Metatada RepositoryJournal Search",
+  // "journal.search.title": "DSpace Angular :: Journal Search",
   "journal.search.title": "DSpace :: Pesquisa de Revistas",
+
+
 
   // "journalissue.listelement.badge": "Journal Issue",
   "journalissue.listelement.badge": "Número",
@@ -2860,6 +3027,8 @@
   // "journalissue.page.titleprefix": "Journal Issue: ",
   "journalissue.page.titleprefix": "Número da Revista: ",
 
+
+
   // "journalvolume.listelement.badge": "Journal Volume",
   "journalvolume.listelement.badge": "Volume da Revista",
 
@@ -2877,6 +3046,8 @@
 
   // "journalvolume.page.volume": "Volume",
   "journalvolume.page.volume": "Volume",
+
+
 
   // "loading.bitstream": "Loading bitstream...",
   "loading.bitstream": "A carregar ficheiro...",
@@ -2932,6 +3103,8 @@
   // "loading.top-level-communities": "Loading top-level communities...",
   "loading.top-level-communities": "A carregar comunidades de nível superior...",
 
+
+
   // "login.form.email": "Email address",
   "login.form.email": "Endereço de email",
 
@@ -2962,6 +3135,8 @@
   // "login.breadcrumbs": "Login",
   "login.breadcrumbs": "Entrar",
 
+
+
   // "logout.form.header": "Log out from DSpace",
   "logout.form.header": "Sair do DSpace",
 
@@ -2971,11 +3146,15 @@
   // "logout.title": "Logout",
   "logout.title": "Sair",
 
+
+
   // "menu.header.admin": "Admin",
   "menu.header.admin": "Administração",
 
   // "menu.header.image.logo": "Repository logo",
   "menu.header.image.logo": "Logo do repositório",
+
+
 
   // "menu.section.access_control": "Access Control",
   "menu.section.access_control": "Controle de Acesso",
@@ -2989,8 +3168,12 @@
   // "menu.section.access_control_people": "People",
   "menu.section.access_control_people": "Pessoas",
 
+
+
   // "menu.section.admin_search": "Admin Search",
   "menu.section.admin_search": "Pesquisa Administrativa",
+
+
 
   // "menu.section.browse_community": "This Community",
   "menu.section.browse_community": "Esta Comunidade",
@@ -3004,7 +3187,7 @@
   // "menu.section.browse_community_by_title": "By Title",
   "menu.section.browse_community_by_title": "Por Título",
 
-  // "menu.section.browse_global": "ALl of Central Metatada Repository",
+  // "menu.section.browse_global": "All of DSpace",
   "menu.section.browse_global": "Percorrer",
 
   // "menu.section.browse_global_by_author": "By Author",
@@ -3022,11 +3205,15 @@
   // "menu.section.browse_global_communities_and_collections": "Communities & Collections",
   "menu.section.browse_global_communities_and_collections": "Comunidades e Coleções",
 
+
+
   // "menu.section.control_panel": "Control Panel",
   "menu.section.control_panel": "Painel de Controle",
 
   // "menu.section.curation_task": "Curation Task",
   "menu.section.curation_task": "Tarefas de Curadoria",
+
+
 
   // "menu.section.edit": "Edit",
   "menu.section.edit": "Editar",
@@ -3039,6 +3226,8 @@
 
   // "menu.section.edit_item": "Item",
   "menu.section.edit_item": "Item",
+
+
 
   // "menu.section.export": "Export",
   "menu.section.export": "Exportar",
@@ -3054,6 +3243,8 @@
 
   // "menu.section.export_metadata": "Metadata",
   "menu.section.export_metadata": "Metadados",
+
+
 
   // "menu.section.icon.access_control": "Access Control menu section",
   "menu.section.icon.access_control": "Secção do menu Controle de Acesso",
@@ -3097,6 +3288,8 @@
   // "menu.section.icon.unpin": "Unpin sidebar",
   "menu.section.icon.unpin": "Soltar barra lateral",
 
+
+
   // "menu.section.import": "Import",
   "menu.section.import": "Importar",
 
@@ -3105,6 +3298,8 @@
 
   // "menu.section.import_metadata": "Metadata",
   "menu.section.import_metadata": "Metadados",
+
+
 
   // "menu.section.new": "New",
   "menu.section.new": "Novo",
@@ -3124,14 +3319,20 @@
   // "menu.section.new_process": "Process",
   "menu.section.new_process": "Processos",
 
+
+
   // "menu.section.pin": "Pin sidebar",
   "menu.section.pin": "Fixar barra lateral",
 
   // "menu.section.unpin": "Unpin sidebar",
   "menu.section.unpin": "Soltar barra lateral",
 
+
+
   // "menu.section.processes": "Processes",
   "menu.section.processes": "Processos",
+
+
 
   // "menu.section.registries": "Registries",
   "menu.section.registries": "Registos",
@@ -3142,11 +3343,15 @@
   // "menu.section.registries_metadata": "Metadata",
   "menu.section.registries_metadata": "Metadados",
 
+
+
   // "menu.section.statistics": "Statistics",
   "menu.section.statistics": "Estatísticas",
 
   // "menu.section.statistics_task": "Statistics Task",
   "menu.section.statistics_task": "Tarefas de Estatísticas",
+
+
 
   // "menu.section.toggle.access_control": "Toggle Access Control section",
   "menu.section.toggle.access_control": "Alternar Secção Controle de Acesso",
@@ -3178,8 +3383,10 @@
   // "menu.section.toggle.statistics_task": "Toggle Statistics Task section",
   "menu.section.toggle.statistics_task": "Alternar Secção Tarefas de Estatísticas",
 
+
   // "menu.section.workflow": "Administer Workflow",
   "menu.section.workflow": "Gestão do Workflow",
+
 
   // "mydspace.description": "",
   "mydspace.description": "",
@@ -3304,7 +3511,9 @@
   // "mydspace.view-btn": "View",
   "mydspace.view-btn": "Ver",
 
-  // "nav.browse.header": "ALl of Central Metatada Repository",
+
+
+  // "nav.browse.header": "All of DSpace",
   "nav.browse.header": "Tudo no DSpace",
 
   // "nav.community-browse.header": "By Community",
@@ -3334,6 +3543,8 @@
   // "nav.stop-impersonating": "Stop impersonating EPerson",
   "nav.stop-impersonating": "Deixar de assumir o papel do Utilizador",
 
+
+
   // "orgunit.listelement.badge": "Organizational Unit",
   "orgunit.listelement.badge": "Organização",
 
@@ -3358,6 +3569,8 @@
   // "orgunit.page.titleprefix": "Organizational Unit: ",
   "orgunit.page.titleprefix": "Organização: ",
 
+
+
   // "pagination.results-per-page": "Results Per Page",
   "pagination.results-per-page": "Resultados por página",
 
@@ -3369,6 +3582,8 @@
 
   // "pagination.sort-direction": "Sort Options",
   "pagination.sort-direction": "Opções de Ordenação",
+
+
 
   // "person.listelement.badge": "Person",
   "person.listelement.badge": "Pessoa",
@@ -3409,8 +3624,10 @@
   // "person.search.results.head": "Person Search Results",
   "person.search.results.head": "Resultado da pesquisa de Pessoa",
 
-  // "person.search.title": "Central Metatada RepositoryPerson Search",
+  // "person.search.title": "DSpace Angular :: Person Search",
   "person.search.title": "DSpace :: Pesquisar Pessoa",
+
+
 
   // "process.new.select-parameters": "Parameters",
   "process.new.select-parameters": "Parâmetros",
@@ -3469,6 +3686,8 @@
   // "process.new.breadcrumbs": "Create a new process",
   "process.new.breadcrumbs": "Criar um novo processo",
 
+
+
   // "process.detail.arguments" : "Arguments",
   "process.detail.arguments": "Argumentos",
 
@@ -3513,6 +3732,8 @@
 
   // "process.detail.create" : "Create similar process",
   "process.detail.create": "Criar processo similar",
+
+
 
   // "process.overview.table.finish" : "Finish time",
   "process.overview.table.finish": "Tempo de término",
@@ -3625,6 +3846,8 @@
   // "profile.title": "Update Profile",
   "profile.title": "Atualizar Perfil",
 
+
+
   // "project.listelement.badge": "Research Project",
   "project.listelement.badge": "Projeto de Investigação",
 
@@ -3658,6 +3881,8 @@
   // "project.search.results.head": "Project Search Results",
   "project.search.results.head": "Resultado da Pesquisa de Projetos",
 
+
+
   // "publication.listelement.badge": "Publication",
   "publication.listelement.badge": "Publicação",
 
@@ -3685,8 +3910,9 @@
   // "publication.search.results.head": "Publication Search Results",
   "publication.search.results.head": "Resultados da Busca de Publicação",
 
-  // "publication.search.title": "Central Metatada RepositoryPublication Search",
+  // "publication.search.title": "DSpace Angular :: Publication Search",
   "publication.search.title": "DSpace :: Busca de Publicações",
+
 
   // "register-email.title": "New user registration",
   "register-email.title": "Registo de Novo Utilizador",
@@ -3787,6 +4013,8 @@
   // "register-page.registration.error.content": "An error occured when registering the following email address: {{ email }}",
   "register-page.registration.error.content": "Ocorreu um erro ao registar o seguinte endereço de correio eletrónico: {{ email }}",
 
+
+
   // "relationships.add.error.relationship-type.content": "No suitable match could be found for relationship type {{ type }} between the two items",
   "relationships.add.error.relationship-type.content": "Não foi encontrado uma licação adequada no tipo de relação {{ type }} entre os dois itens",
 
@@ -3840,6 +4068,8 @@
 
   // "relationships.isContributorOf": "Contributors",
   "relationships.isContributorOf": "Contribuidores",
+
+
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Adicionar",
@@ -3991,13 +4221,15 @@
   // "resource-policies.table.headers.title.for.collection": "Policies for Collection",
   "resource-policies.table.headers.title.for.collection": "Políticas para Coleção",
 
+
+
   // "search.description": "",
   "search.description": "",
 
   // "search.switch-configuration.title": "Show",
   "search.switch-configuration.title": "Mostrar",
 
-  // "search.title": "Central Metatada RepositorySearch",
+  // "search.title": "DSpace Angular :: Search",
   "search.title": "DSpace :: Pesquisa",
 
   // "search.breadcrumbs": "Search",
@@ -4186,6 +4418,8 @@
   // "search.filters.filter.submitter.placeholder": "Submitter",
   "search.filters.filter.submitter.placeholder": "Depositante",
 
+
+
   // "search.filters.entityType.JournalIssue": "Journal Issue",
   "search.filters.entityType.JournalIssue": "Número de Revista",
 
@@ -4219,6 +4453,8 @@
   // "search.filters.reset": "Reset filters",
   "search.filters.reset": "Limpar filtros",
 
+
+
   // "search.form.search": "Search",
   "search.form.search": "Pesquisar",
 
@@ -4227,6 +4463,8 @@
 
   // "search.form.search_mydspace": "Search MyDSpace",
   "search.form.search_mydspace": "Pesquisar na Área Pessoal",
+
+
 
   // "search.results.head": "Search Results",
   "search.results.head": "Resultados de Busca",
@@ -4239,6 +4477,8 @@
 
   // "search.results.empty": "Your search returned no results.",
   "search.results.empty": "A sua pesquisa não retornou resultados.",
+
+
 
   // "search.sidebar.close": "Back to results",
   "search.sidebar.close": "Voltar para os resultados",
@@ -4261,6 +4501,8 @@
   // "search.sidebar.settings.title": "Settings",
   "search.sidebar.settings.title": "Configurações",
 
+
+
   // "search.view-switch.show-detail": "Show detail",
   "search.view-switch.show-detail": "Mostrar detalhes",
 
@@ -4269,6 +4511,8 @@
 
   // "search.view-switch.show-list": "Show as list",
   "search.view-switch.show-list": "Mostrar como lista",
+
+
 
   // "sorting.ASC": "Ascending",
   "sorting.ASC": "Ascendente",
@@ -4284,6 +4528,8 @@
 
   // "sorting.score.DESC": "Relevance",
   "sorting.score.DESC": "Relevância",
+
+
 
   // "statistics.title": "Statistics",
   "statistics.title": "Estatísticas",
@@ -4317,6 +4563,8 @@
 
   // "statistics.table.header.views": "Views",
   "statistics.table.header.views": "Consultas",
+
+
 
   // "submission.edit.title": "Edit Submission",
   "submission.edit.title": "Editar Submissão",
@@ -4724,8 +4972,8 @@
   // "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Search Results",
   "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Resultados da Pesquisa",
 
-  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don\'t you can still use it for this submission.",
-  "submission.sections.describe.relationship-lookup.name-variant.notification.content": 'Pretende guardar "{{ value }}" como um nome alternativo para esta pessoa permitindo a sua reutilização por outros em futuras submissões? Se não, pode usar apenas nesta submissão.',
+  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don't you can still use it for this submission.",
+  "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Pretende guardar \"{{ value }}\" como um nome alternativo para esta pessoa permitindo a sua reutilização por outros em futuras submissões? Se não, pode usar apenas nesta submissão.",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Save a new name variant",
   "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Guardar um Nome alternativo",
@@ -4796,6 +5044,8 @@
   // "submission.sections.general.sections_not_valid": "There are incomplete sections.",
   "submission.sections.general.sections_not_valid": "Há seções incompletas.",
 
+
+
   // "submission.sections.submit.progressbar.CClicense": "Creative commons license",
   "submission.sections.submit.progressbar.CClicense": "Licença Creative commons",
 
@@ -4819,6 +5069,8 @@
 
   // "submission.sections.submit.progressbar.upload": "Upload files",
   "submission.sections.submit.progressbar.upload": "Enviar ficheiros",
+
+
 
   // "submission.sections.upload.delete.confirm.cancel": "Cancel",
   "submission.sections.upload.delete.confirm.cancel": "Cancelar",
@@ -4868,7 +5120,7 @@
   // "submission.sections.upload.header.policy.default.withlist": "Please note that uploaded files in the {{collectionName}} collection will be accessible, in addition to what is explicitly decided for the single file, with the following group(s):",
   "submission.sections.upload.header.policy.default.withlist": "Por favor note que os ficheiros enviados à coleção {{collectionName}} serão acessíveis, de acordo com o que está explicitamente definido no ficheiro, no(s) seguinte(s) grupo(s):",
 
-  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files just dragging & dropping them everywhere in the page</strong>",
+  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files by dragging & dropping them anywhere on the page.</strong>",
   "submission.sections.upload.info": "Aqui encontra todos os ficheiros que estão atualmente no item. Pode atualizar os metadados do ficheiro e condições de acesso ou <strong>carregar ficheiros adicionais arrastando os ficheiros em qualquer lugar desta página</strong>",
 
   // "submission.sections.upload.no-entry": "No",
@@ -4889,14 +5141,18 @@
   // "submission.sections.upload.upload-successful": "Upload successful",
   "submission.sections.upload.upload-successful": "Enviado com sucesso",
 
+
+
   // "submission.submit.title": "Submission",
   "submission.submit.title": "Submissão",
+
+
 
   // "submission.workflow.generic.delete": "Delete",
   "submission.workflow.generic.delete": "Apagar",
 
   // "submission.workflow.generic.delete-help": "If you would to discard this item, select \"Delete\".  You will then be asked to confirm it.",
-  "submission.workflow.generic.delete-help": 'Se você gostaria de descartar este item, selecione "Apagar".  Você será questionado para confirmar.',
+  "submission.workflow.generic.delete-help": "Se você gostaria de descartar este item, selecione \"Apagar\".  Você será questionado para confirmar.",
 
   // "submission.workflow.generic.edit": "Edit",
   "submission.workflow.generic.edit": "Editar",
@@ -4910,11 +5166,13 @@
   // "submission.workflow.generic.view-help": "Select this option to view the item's metadata.",
   "submission.workflow.generic.view-help": "Selecione esta opção para ver o metadados do item.",
 
+
+
   // "submission.workflow.tasks.claimed.approve": "Approve",
   "submission.workflow.tasks.claimed.approve": "Aprovar",
 
   // "submission.workflow.tasks.claimed.approve_help": "If you have reviewed the item and it is suitable for inclusion in the collection, select \"Approve\".",
-  "submission.workflow.tasks.claimed.approve_help": 'Se você revisou o item e este está adequado para inclusão na coleção, selecione "Aprovar".',
+  "submission.workflow.tasks.claimed.approve_help": "Se você revisou o item e este está adequado para inclusão na coleção, selecione \"Aprovar\".",
 
   // "submission.workflow.tasks.claimed.edit": "Edit",
   "submission.workflow.tasks.claimed.edit": "Editar",
@@ -4938,13 +5196,15 @@
   "submission.workflow.tasks.claimed.reject.submit": "Rejeitar",
 
   // "submission.workflow.tasks.claimed.reject_help": "If you have reviewed the item and found it is <strong>not</strong> suitable for inclusion in the collection, select \"Reject\".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.",
-  "submission.workflow.tasks.claimed.reject_help": 'Se reviu o item e achou que ele <strong>não</strong> é adequado para inclusão na coleção, selecione "Rejeitar".  Deverá indicar numa mensagem o motivo da rejeição e se o depositante deve modificar algo e reenviar.',
+  "submission.workflow.tasks.claimed.reject_help": "Se reviu o item e achou que ele <strong>não</strong> é adequado para inclusão na coleção, selecione \"Rejeitar\".  Deverá indicar numa mensagem o motivo da rejeição e se o depositante deve modificar algo e reenviar.",
 
   // "submission.workflow.tasks.claimed.return": "Return to pool",
   "submission.workflow.tasks.claimed.return": "Voltar para a listagem",
 
   // "submission.workflow.tasks.claimed.return_help": "Return the task to the pool so that another user may perform the task.",
   "submission.workflow.tasks.claimed.return_help": "Enviar a tarefa para a lista para que outra pessoa possa executar.",
+
+
 
   // "submission.workflow.tasks.generic.error": "Error occurred during operation...",
   "submission.workflow.tasks.generic.error": "Ocorreu um erro durante a operação...",
@@ -4958,6 +5218,8 @@
   // "submission.workflow.tasks.generic.success": "Operation successful",
   "submission.workflow.tasks.generic.success": "Operação realizada com sucesso",
 
+
+
   // "submission.workflow.tasks.pool.claim": "Claim",
   "submission.workflow.tasks.pool.claim": "Requerer",
 
@@ -4970,8 +5232,12 @@
   // "submission.workflow.tasks.pool.show-detail": "Show detail",
   "submission.workflow.tasks.pool.show-detail": "Mostrar detalhes",
 
+
+
   // "title": "DSpace",
-  title: "DSpace",
+  "title": "DSpace",
+
+
 
   // "vocabulary-treeview.header": "Hierarchical tree view",
   "vocabulary-treeview.header": "Vista hierárquica",
@@ -4993,6 +5259,8 @@
 
   // "vocabulary-treeview.tree.description.srsc": "Research Subject Categories",
   "vocabulary-treeview.tree.description.srsc": "Categorias de Assuntos de Investigação",
+
+
 
   // "uploader.browse": "browse",
   "uploader.browse": "Navegar",
@@ -5019,8 +5287,12 @@
   // "virtual-metadata.delete-relationship.modal-head": "Select the items for which you want to save the virtual metadata as real metadata",
   "virtual-metadata.delete-relationship.modal-head": "Selecione os tipos para os quais pretende guardar os metadados virtuais como metadados reais",
 
+
+
   // "workflowAdmin.search.results.head": "Administer Workflow",
   "workflowAdmin.search.results.head": "Gestão do Workflow",
+
+
 
   // "workflow-item.delete.notification.success.title": "Deleted",
   "workflow-item.delete.notification.success.title": "Apagado",
@@ -5066,6 +5338,10 @@
 
   // "workflow-item.send-back.button.cancel": "Cancel",
   "workflow-item.send-back.button.cancel": "Cancelar",
+
+  // "workflow-item.send-back.button.confirm": "Send back"
+  "workflow-item.send-back.button.confirm": "Devolver",
+
 
   // "workflow-item.send-back.button.confirm": "Send back"
   "workflow-item.send-back.button.confirm": "Devolver",

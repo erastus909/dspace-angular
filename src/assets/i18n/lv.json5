@@ -163,6 +163,8 @@
 
   // "admin.registries.bitstream-formats.table.name": "Name",
   "admin.registries.bitstream-formats.table.name": "Nosaukums",
+  // TODO New key - Add a translation
+  "admin.registries.bitstream-formats.table.id": "ID",
 
   // "admin.registries.bitstream-formats.table.return": "Return",
   "admin.registries.bitstream-formats.table.return": "Atgriezties",
@@ -240,6 +242,8 @@
 
   // "admin.registries.schema.fields.table.field": "Field",
   "admin.registries.schema.fields.table.field": "Lauks",
+  // TODO New key - Add a translation
+  "admin.registries.schema.fields.table.id": "ID",
 
   // "admin.registries.schema.fields.table.scopenote": "Scope Note",
   "admin.registries.schema.fields.table.scopenote": "Jomas Piezīme",
@@ -1801,6 +1805,8 @@
   // TODO New key - Add a translation
   "footer.link.end-user-agreement": "End User Agreement",
 
+
+
   // "forgot-email.form.header": "Forgot Password",
   // TODO New key - Add a translation
   "forgot-email.form.header": "Forgot Password",
@@ -2074,7 +2080,7 @@
   // "item.bitstreams.upload.bundle.new": "Create bundle",
   "item.bitstreams.upload.bundle.new": "Izveidot kopienu",
 
-  // "item.bitstreams.upload.bundles.empty": "This item doesn\'t contain any bundles to upload a bitstream to.",
+  // "item.bitstreams.upload.bundles.empty": "This item doesn't contain any bundles to upload a bitstream to.",
   "item.bitstreams.upload.bundles.empty": "Materiālā nav neviena kopiena ko augšupielādēt bitu straumē.",
 
   // "item.bitstreams.upload.cancel": "Cancel",
@@ -2529,7 +2535,7 @@
   // "item.edit.tabs.status.buttons.mappedCollections.label": "Manage mapped collections",
   "item.edit.tabs.status.buttons.mappedCollections.label": "Pārvaldīt piesaistītās kolekcijas",
 
-  // "item.edit.tabs.status.buttons.move.button": "Move...",
+  // "item.edit.tabs.status.buttons.move.button": "Move this Item to a different Collection",
   "item.edit.tabs.status.buttons.move.button": "Pārvieto...",
 
   // "item.edit.tabs.status.buttons.move.label": "Move item to another collection",
@@ -2553,8 +2559,8 @@
   // "item.edit.tabs.status.buttons.reinstate.label": "Reinstate item into the repository",
   "item.edit.tabs.status.buttons.reinstate.label": "Atjaunot materiālu repozitorijā",
 
-  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw...",
-  "item.edit.tabs.status.buttons.withdraw.button": "Atsaukt...",
+  // "item.edit.tabs.status.buttons.withdraw.button": "Withdraw this item",
+  "item.edit.tabs.status.buttons.withdraw.button": "Izņemiet šo vienumu",
 
   // "item.edit.tabs.status.buttons.withdraw.label": "Withdraw item from the repository",
   "item.edit.tabs.status.buttons.withdraw.label": "Izņemiet materiālu no repozitorijas",
@@ -2620,10 +2626,6 @@
   // "item.page.description": "Description",
   // TODO New key - Add a translation
   "item.page.description": "Description",
-
-  // "item.page.edit": "Edit this item",
-  // TODO New key - Add a translation
-  "item.page.edit": "Edit this item",
 
   // "item.page.journal-issn": "Journal ISSN",
   // TODO New key - Add a translation
@@ -3587,6 +3589,8 @@
   // "process.detail.create" : "Create similar process",
   // TODO New key - Add a translation
   "process.detail.create": "Create similar process",
+
+
 
   // "process.overview.table.finish" : "Finish time",
   // TODO New key - Add a translation
@@ -4976,8 +4980,8 @@
   // TODO New key - Add a translation
   "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Search Results",
 
-  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don\'t you can still use it for this submission.",
-  "submission.sections.describe.relationship-lookup.name-variant.notification.content": 'Vai vēlaties saglabāt "{{ value }}" kā vārda variantu šai personai, lai jūs un citi varētu to izmantot turpmākai iesniegšanai? Ja nē, jūs joprojām varat to izmantot šai iesniegšanai.',
+  // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don't you can still use it for this submission.",
+  "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Vai vēlaties saglabāt \"{{ value }}\" kā vārda variantu šai personai, lai jūs un citi varētu to izmantot turpmākai iesniegšanai? Ja nē, jūs joprojām varat to izmantot šai iesniegšanai.",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Save a new name variant",
   "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Saglabājiet jauna nosaukuma variantu",
@@ -5130,7 +5134,7 @@
   // "submission.sections.upload.header.policy.default.withlist": "Please note that uploaded files in the {{collectionName}} collection will be accessible, in addition to what is explicitly decided for the single file, with the following group(s):",
   "submission.sections.upload.header.policy.default.withlist": "Lūdzu, ņemiet vērā, ka augšupielādētie faili kolekcijā {{collectionName}} būs pieejami papildus tam, kas ir skaidri noteikts par atsevišķu failu, ar šādām grupām:",
 
-  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files just dragging & dropping them everywhere in the page</strong>",
+  // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files by dragging & dropping them anywhere on the page.</strong>",
   "submission.sections.upload.info": "Šeit atradīsit visus failus, kas pašlaik atrodas materiālā. Varat atjaunināt failu metadatus un piekļuves nosacījumus vai <strong>augšupielādēt papildu failus, vienkārši ievelkot un atstājot tos visur lapā</strong>",
 
   // "submission.sections.upload.no-entry": "No",
@@ -5355,4 +5359,6 @@
   // "workflow-item.send-back.button.confirm": "Send back"
   // TODO New key - Add a translation
   "workflow-item.send-back.button.confirm": "Send back",
+
+
 }
