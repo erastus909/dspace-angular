@@ -23,8 +23,8 @@ services:
       # these DSPACE_REST_* variables MUST point at a public, HTTPS URL.
       # This is because Server Side Rendering (SSR) currently requires a public URL,
       # see this bug: https://github.com/DSpace/dspace-angular/issues/1485
-      DSPACE_REST_SSL: 'true'
-      DSPACE_REST_HOST: api7.dspace.org
+      DSPACE_REST_SSL: 'false'
+      DSPACE_REST_HOST: 3.87.44.108
       DSPACE_REST_PORT: 443
       DSPACE_REST_NAMESPACE: /server
     image: dspace/dspace-angular:dspace-7_x-dist
@@ -34,7 +34,7 @@ services:
     networks:
       dspacenet:
     ports:
-    - published: 4000
-      target: 4000
+      - published: 4000
+        target: 4000
     stdin_open: true
     tty: true
