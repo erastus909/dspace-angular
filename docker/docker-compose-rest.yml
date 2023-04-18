@@ -29,8 +29,8 @@ services:
       # __D__ => "-" (e.g. google__D__metadata => google-metadata)
       # dspace.dir, dspace.server.url, dspace.ui.url and dspace.name
       dspace__P__dir: /dspace
-      dspace__P__server__P__url: http://3.87.44.108:8080/server
-      dspace__P__ui__P__url: http://3.87.44.108:4000
+      dspace__P__server__P__url: http://3.84.47.109:8080/server
+      dspace__P__ui__P__url: http://3.84.47.109:4000
       dspace__P__name: 'DSpace Started with Docker Compose'
       # db.url: Ensure we are using the 'dspacedb' image for our database
       db__P__url: 'jdbc:postgresql://dspacedb:5432/dspace'
